@@ -24,10 +24,11 @@ void Chassis_Task(void const * argument)
 		
 		while(1)
 		{
+			LEDE1 = 0;
 			
 			//¼ì²âÖÜÆÚ
 		vTaskDelay(CHASSIS_CONTROL_TIME);
-
+		
 		}
 		
 	}

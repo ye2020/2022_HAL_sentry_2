@@ -21,6 +21,8 @@ void Detect_TASK(void const * argument)
 	vTaskDelay(Detect_TASK_INIT_TIME);
 	while(1)
 	{
+		/* ĞÄÌø¼ì²âÈÎÎñ */
+		LEDE4 = 0;
 		
 	vTaskDelay(Detect_CONTROL_TIME);
 

@@ -24,7 +24,8 @@ void GIMBAL_TASK(void const * argument)
 	
 	while(1)
 	{
-		
+		/* 心跳任务 */
+		LEDE2 = 0;
 		
 		vTaskDelay(GIMBAL_CONTROL_TIME_MS); //系统延时
 

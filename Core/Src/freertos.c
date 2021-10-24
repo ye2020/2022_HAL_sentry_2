@@ -54,6 +54,7 @@ osThreadId GIMBALTASKHandle;
 osThreadId FireTaskHandle;
 osThreadId DetectTASKHandle;
 osThreadId SAFETASKHandle;
+osThreadId LedTaskHandle;
 
 /* Private function prototypes -----------------------------------------------*/
 /* USER CODE BEGIN FunctionPrototypes */
@@ -66,6 +67,7 @@ extern void GIMBAL_TASK(void const * argument);
 extern void Fire_Task(void const * argument);
 extern void Detect_TASK(void const * argument);
 extern void SAFE_TASK(void const * argument);
+extern void Led_Task(void const * argument);
 
 void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
 
@@ -135,6 +137,10 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of SAFETASK */
   osThreadDef(SAFETASK, SAFE_TASK, osPriorityHigh, 0, 128);
   SAFETASKHandle = osThreadCreate(osThread(SAFETASK), NULL);
+
+  /* definition and creation of LedTask */
+  osThreadDef(LedTask, Led_Task, osPriorityIdle, 0, 128);
+  LedTaskHandle = osThreadCreate(osThread(LedTask), NULL);
 
   /* USER CODE BEGIN RTOS_THREADS */
   /* add threads, ... */

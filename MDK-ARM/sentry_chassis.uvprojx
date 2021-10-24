@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F; ../Drivers/CMSIS/Device/ST/STM32F4xx/Include; ../Drivers/CMSIS/Include; ..\TASK\Task_Chassis; ..\TASK\Task_Detect; ..\TASK\Task_Fire; ..\TASK\Task_Gimbal; ..\TASK\Task_Safe; ..\SYSTEM\SysInit</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\TASK\Task_Chassis;..\TASK\Task_Detect;..\TASK\Task_Fire;..\TASK\Task_Gimbal;..\TASK\Task_Safe;..\SYSTEM\SysInit;..\TASK\Task_Led</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -628,6 +628,11 @@
               <FileName>Task_Detect.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\TASK\Task_Detect\Task_Detect.c</FilePath>
+            </File>
+            <File>
+              <FileName>Task_LED.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\TASK\Task_Led\Task_LED.c</FilePath>
             </File>
           </Files>
         </Group>

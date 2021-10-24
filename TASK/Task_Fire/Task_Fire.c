@@ -24,8 +24,10 @@ void Fire_Task(void *pvParameters)
 	
 	while(1)
 	{
+		/*  пдлЬхннЯ */
+		LEDE3 = 0;
 		
-				        vTaskDelay(FIRE_CONTROL_TIME_MS); 
+		vTaskDelay(FIRE_CONTROL_TIME_MS); 
 
 	}
 
