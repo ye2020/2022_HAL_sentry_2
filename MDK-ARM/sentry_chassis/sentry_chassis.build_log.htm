@@ -5,7 +5,7 @@
 <h2>Tool Versions:</h2>
 IDE-Version: ¦ÌVision V5.35.0.0
 Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
-License Information: . admin, ., LIC=BUURY-IX5CQ-VEYHA-1HEZI-9GM92-F57LK
+License Information: . admin, ., LIC=9WSKC-796YQ-45PT5-G0ULZ-H5EI7-3YTRM
  
 Tool Versions:
 Toolchain:       MDK-ARM Plus  Version: 5.35.0.2
@@ -21,13 +21,20 @@ Target DLL:      Segger\JL2CM3.dll V2.99.40.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-D:\workspace\2022_HAL_sentry\MDK-ARM\sentry_chassis.uvprojx
-Project File Date:  10/24/2021
+d:\workspace\2022_HAL_sentry\MDK-ARM\sentry_chassis.uvprojx
+Project File Date:  11/06/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
-"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 0 Warning(s).
+compiling RemoteControl.c...
+..\CONTROL\RemoteControl\RemoteControl.c(248): warning:  #177-D: variable "this_time_rx_len"  was declared but never referenced
+  	uint16_t this_time_rx_len;
+..\CONTROL\RemoteControl\RemoteControl.c: 1 warning, 0 errors
+linking...
+Program Size: Code=12240 RO-data=732 RW-data=144 ZI-data=20536  
+FromELF: creating hex file...
+"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 1 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -51,7 +58,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:00
+Build Time Elapsed:  00:00:03
 </pre>
 </body>
 </html>

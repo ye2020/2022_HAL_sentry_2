@@ -50,3 +50,9 @@ sentry_chassis\main.o: ../Core/Inc/can.h
 sentry_chassis\main.o: ../Core/Inc/dma.h
 sentry_chassis\main.o: ../Core/Inc/usart.h
 sentry_chassis\main.o: ../Core/Inc/gpio.h
+sentry_chassis\main.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\main.o: ..\TASK\Task_Chassis\Task_Chassis.h
+sentry_chassis\main.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
+sentry_chassis\main.o: ..\CONTROL\RemoteControl\RemoteControl.h
+sentry_chassis\main.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h

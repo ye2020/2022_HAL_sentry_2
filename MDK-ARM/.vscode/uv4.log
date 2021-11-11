@@ -1,4 +1,11 @@
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
-"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:01
+compiling RemoteControl.c...
+..\CONTROL\RemoteControl\RemoteControl.c(248): warning:  #177-D: variable "this_time_rx_len"  was declared but never referenced
+  	uint16_t this_time_rx_len;
+..\CONTROL\RemoteControl\RemoteControl.c: 1 warning, 0 errors
+linking...
+Program Size: Code=12240 RO-data=732 RW-data=144 ZI-data=20536  
+FromELF: creating hex file...
+"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 1 Warning(s).
+Build Time Elapsed:  00:00:03

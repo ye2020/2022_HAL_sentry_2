@@ -100,6 +100,9 @@
 #define PIin(n)    BIT_ADDR(GPIOI_IDR_Addr,n)  // ‰»Î
 
 
+void System_init(void);
+
+
 #endif
 
 
