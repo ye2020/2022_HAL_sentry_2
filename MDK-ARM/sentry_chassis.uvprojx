@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\TASK\Task_Chassis;..\TASK\Task_Detect;..\TASK\Task_Fire;..\TASK\Task_Gimbal;..\TASK\Task_Safe;..\SYSTEM\SysInit;..\TASK\Task_Led;..\CONTROL\RemoteControl;..\SYSTEM\bsp_usart2;..\SYSTEM\FIFO_BUFF</IncludePath>
+              <IncludePath>../Core/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F; ../Drivers/CMSIS/Device/ST/STM32F4xx/Include; ../Drivers/CMSIS/Include; ..\TASK\Task_Chassis; ..\TASK\Task_Detect; ..\TASK\Task_Fire; ..\TASK\Task_Gimbal; ..\TASK\Task_Safe; ..\SYSTEM\SysInit; ..\TASK\Task_Led; ..\CONTROL\RemoteControl; ..\SYSTEM\bsp_usart2; ..\SYSTEM\FIFO_BUFF; ..\ALGORITHM\rmmotor; ..\CONTROL\CAN_1_Receive</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -597,6 +597,13 @@
         </Group>
         <Group>
           <GroupName>ALGORITHM</GroupName>
+          <Files>
+            <File>
+              <FileName>rmmotor.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ALGORITHM\rmmotor\rmmotor.c</FilePath>
+            </File>
+          </Files>
         </Group>
         <Group>
           <GroupName>CONTROL</GroupName>
@@ -605,6 +612,11 @@
               <FileName>RemoteControl.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\CONTROL\RemoteControl\RemoteControl.c</FilePath>
+            </File>
+            <File>
+              <FileName>CAN_1_Receive.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CONTROL\CAN_1_Receive\CAN_1_Receive.c</FilePath>
             </File>
           </Files>
         </Group>

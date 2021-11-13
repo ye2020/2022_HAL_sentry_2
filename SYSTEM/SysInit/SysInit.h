@@ -31,6 +31,12 @@
 #include "dma.h"
 #include "usart.h"
 #include "gpio.h"
+#include "bsp_usart2.h"
+
+
+/* ************************ CONTROL ******************** */	
+#include "CAN_1_Receive.h"
+#include "RemoteControl.h"
 
 
 //LED端口定义
@@ -98,6 +104,24 @@
 
 #define PIout(n)   BIT_ADDR(GPIOI_ODR_Addr,n)  //输出 
 #define PIin(n)    BIT_ADDR(GPIOI_IDR_Addr,n)  //输入
+
+
+/************电机 传动比*减速比 ***************/
+#define YAW_RATIO      (5*19)         //Yaw轴
+#define PITCH_RATIO		 (1.5*19)       //Pitch轴
+#define CHASSIS_RATIO  (1*19)					//底盘电机减速比
+#define Sec_YAW_RATIO  (3*1)          //副Yaw轴
+
+/* 底盘电机移动速度设定 */ 
+#define M3508_MAX_OUTPUT_CURRENT  5000   //m3508电机最大电流输出  
+#define M2006_MAX_OUTPUT_CURRENT  9500   //m2006电机最大电流输出
+
+#define MAX_MOTOR_CAN_INPUT    2000.0f   //3508最大电流输入
+#define MAX_MOTOR_CAN_OUTPUT   16000.0f  //3508最大电流输出
+
+/*************减速电机启动电流补偿（快速启动）**********/
+#define GEAR_MOTOR_START_CURRENT   300
+#define GEAR_MOTOR_REDUCE_CURRENT  1.21
 
 
 void System_init(void);

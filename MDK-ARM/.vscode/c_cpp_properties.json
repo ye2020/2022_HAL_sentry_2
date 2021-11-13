@@ -21,6 +21,8 @@
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\RemoteControl",
                 "d:\\workspace\\2022_HAL_sentry\\SYSTEM\\bsp_usart2",
                 "d:\\workspace\\2022_HAL_sentry\\SYSTEM\\FIFO_BUFF",
+                "d:\\workspace\\2022_HAL_sentry\\ALGORITHM\\rmmotor",
+                "d:\\workspace\\2022_HAL_sentry\\CONTROL\\CAN_1_Receive",
                 "F:\\keil5\\ARM\\ARMCC\\include",
                 "F:\\keil5\\ARM\\ARMCC\\include\\rw",
                 "d:\\workspace\\2022_HAL_sentry\\MDK-ARM",

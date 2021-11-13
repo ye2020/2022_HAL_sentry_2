@@ -54,3 +54,8 @@ sentry_chassis\task_gimbal.o: ../Core/Inc/can.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/dma.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/usart.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/gpio.h
+sentry_chassis\task_gimbal.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\task_gimbal.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
+sentry_chassis\task_gimbal.o: ..\CONTROL\RemoteControl\RemoteControl.h

@@ -1,11 +1,37 @@
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
-compiling RemoteControl.c...
-..\CONTROL\RemoteControl\RemoteControl.c(248): warning:  #177-D: variable "this_time_rx_len"  was declared but never referenced
-  	uint16_t this_time_rx_len;
-..\CONTROL\RemoteControl\RemoteControl.c: 1 warning, 0 errors
-linking...
-Program Size: Code=12240 RO-data=732 RW-data=144 ZI-data=20536  
-FromELF: creating hex file...
-"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 1 Warning(s).
-Build Time Elapsed:  00:00:03
+compiling CAN_1_Receive.c...
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.h(48): error:  #20: identifier "CAN_RxHeaderTypeDef" is undefined
+  static void CAN1_receive(CAN_RxHeaderTypeDef *Rxmessage);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(103): error:  #42: operand types are incompatible ("CAN_HandleTypeDef *" and "CAN_HandleTypeDef")
+      if(hcan == hcan1)					
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(106): error:  #20: identifier "hcan2" is undefined
+      else if(hcan == hcan2)
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(109): error:  #127: expected a statement
+  }
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(118): error:  #20: identifier "hcan" is undefined
+    if(  HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &Rxmessage, Rx_Data) == HAL_OK)	//读取接收的信息
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(118): error:  #167: argument of type "CAN_RxHeaderTypeDef **" is incompatible with parameter of type "CAN_RxHeaderTypeDef *"
+    if(  HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &Rxmessage, Rx_Data) == HAL_OK)	//读取接收的信息
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(120): error:  #154: expression must have struct or union type
+      switch (Rxmessage.StdId)
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(125): error:  #20: identifier "motor_chassis" is undefined
+              get_motor_M3508(&motor_chassis[1], rx_message);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(125): error:  #20: identifier "rx_message" is undefined
+              get_motor_M3508(&motor_chassis[1], rx_message);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(126): error:  #20: identifier "motor_chassis" is undefined
+              motor_chassis[1].position = (uint16_t)((rx_message)->Data[0] << 8 | (rx_message)->Data[1]);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(126): error:  #20: identifier "rx_message" is undefined
+              motor_chassis[1].position = (uint16_t)((rx_message)->Data[0] << 8 | (rx_message)->Data[1]);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(127): warning:  #223-D: function "Motor_Actual_Position" declared implicitly
+  			Motor_Actual_Position(&motor_chassis[1],CHASSIS_RATIO,8192);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(127): error:  #20: identifier "CHASSIS_RATIO" is undefined
+  			Motor_Actual_Position(&motor_chassis[1],CHASSIS_RATIO,8192);
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(140): warning:  #1-D: last line of file ends without a newline
+  }
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c(27): warning:  #177-D: variable "moto"  was declared but never referenced
+  static motor_measure_t moto[4];						//电机数据结构体 储存电机的角度、转速、电流、温度等信息
+..\CONTROL\CAN_1_Receive\CAN_1_Receive.c: 3 warnings, 12 errors
+"sentry_chassis\sentry_chassis.axf" - 12 Error(s), 3 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:02

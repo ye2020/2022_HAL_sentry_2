@@ -26,10 +26,11 @@ void Chassis_Task(void const * argument)
 		{
 			LEDE1 = 0;
 			
+			CAN_Send_Msg(1000,0,0,0);
 			//¼ì²âÖÜÆÚ
 		vTaskDelay(CHASSIS_CONTROL_TIME);
 		
-		}
+		}                                                                                                                            
 		
 	}
 

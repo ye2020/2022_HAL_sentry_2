@@ -55,4 +55,6 @@ sentry_chassis\remotecontrol.o: ../Middlewares/Third_Party/FreeRTOS/Source/inclu
 sentry_chassis\remotecontrol.o: ../Core/Inc/can.h
 sentry_chassis\remotecontrol.o: ../Core/Inc/dma.h
 sentry_chassis\remotecontrol.o: ../Core/Inc/gpio.h
+sentry_chassis\remotecontrol.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\remotecontrol.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\remotecontrol.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h

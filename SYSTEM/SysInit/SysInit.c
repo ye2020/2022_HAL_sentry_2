@@ -32,8 +32,12 @@
 #include "dma.h"
 #include "usart.h"
 #include "gpio.h"
+#include "bsp_usart2.h"
 
 
+/* ************************ CONTROL ******************** */	
+#include "CAN_1_Receive.h"
+#include "RemoteControl.h"
 
 
 extern UART_HandleTypeDef huart2;
@@ -51,10 +55,11 @@ extern DMA_HandleTypeDef hdma_usart6_tx;
 
 void System_init(void)
 {
-	
+	/* “£øÿ≥ı ºªØ */
+		remote_control_init();
+	/*  can¬À≤®≈‰÷√≥ı ºªØ */
+		CAN1_filter_config();
 
-
-		
 
 }
 
