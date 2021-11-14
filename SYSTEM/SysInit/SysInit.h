@@ -15,6 +15,12 @@
 #ifndef SYSINIT_H
 #define SYSINIT_H
 
+/*  系统头文件 */
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+#include "stdint.h"
+
 /************************* Task ************************/
 #include "Task_Chassis.h"
 
@@ -37,6 +43,19 @@
 /* ************************ CONTROL ******************** */	
 #include "CAN_1_Receive.h"
 #include "RemoteControl.h"
+
+/* ************************ ALGORITHM ******************** */	
+
+#include "pid.h"
+#include "rmmotor.h"
+#include "maths.h"
+#include "filter.h"
+
+
+
+/* ************************  分割线  ******************** */	
+
+
 
 
 //LED端口定义

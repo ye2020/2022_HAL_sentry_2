@@ -16,7 +16,6 @@
 #ifndef SAFE_TASK_H
 #define SAFE_TASK_H
 
-#include "SysInit.h"
 
 /*OS控制任务周期以及启动时间*/
 #define SAFE_TASK_INIT_TIME 	5

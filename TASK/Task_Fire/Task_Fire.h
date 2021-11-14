@@ -1,7 +1,6 @@
 #ifndef TASK_FIRE_H
 #define TASK_FIRE_H
 
-#include "SysInit.h"
 
 /*OS控制任务周期以及启动时间*/
 #define FIRE_TASK_INIT_TIME  5

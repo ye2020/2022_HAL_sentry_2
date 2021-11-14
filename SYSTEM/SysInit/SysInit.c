@@ -16,30 +16,7 @@
 #include "SysInit.h"
 
 
-/************************* Task ************************/
-#include "Task_Chassis.h"
-
-/* ************************freertos******************** */
-#include "freertos.h"
-#include "task.h"
-#include "queue.h"
-#include "semphr.h"
 	
-/* ************************ Hardward ******************** */	
-#include "main.h"
-#include "cmsis_os.h"
-#include "can.h"
-#include "dma.h"
-#include "usart.h"
-#include "gpio.h"
-#include "bsp_usart2.h"
-
-
-/* ************************ CONTROL ******************** */	
-#include "CAN_1_Receive.h"
-#include "RemoteControl.h"
-
-
 extern UART_HandleTypeDef huart2;
 extern UART_HandleTypeDef huart3;
 extern UART_HandleTypeDef huart6;

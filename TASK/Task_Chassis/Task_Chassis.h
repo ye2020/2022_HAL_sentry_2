@@ -19,7 +19,7 @@
 #define CHASSIS_TASK_INIT_TIME 5
 #define CHASSIS_CONTROL_TIME   2
 
-#include "SysInit.h"
+
 
 
 extern  void Chassis_Task(void const * argument);

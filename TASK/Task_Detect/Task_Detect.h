@@ -15,7 +15,6 @@
 #ifndef DETECH_TASK_H
 #define DETECH_TASK_H
 
-#include "SysInit.h"
 
 
 /*OS控制任务周期以及启动时间*/

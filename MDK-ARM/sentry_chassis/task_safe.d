@@ -1,11 +1,13 @@
 sentry_chassis\task_safe.o: ..\TASK\Task_Safe\Task_Safe.c
 sentry_chassis\task_safe.o: ..\TASK\Task_Safe\Task_Safe.h
 sentry_chassis\task_safe.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_safe.o: ..\TASK\Task_Chassis\Task_Chassis.h
-sentry_chassis\task_safe.o: ..\SYSTEM\SysInit\SysInit.h
 sentry_chassis\task_safe.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_safe.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\task_safe.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 sentry_chassis\task_safe.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -55,7 +57,9 @@ sentry_chassis\task_safe.o: ../Core/Inc/dma.h
 sentry_chassis\task_safe.o: ../Core/Inc/usart.h
 sentry_chassis\task_safe.o: ../Core/Inc/gpio.h
 sentry_chassis\task_safe.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
-sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-sentry_chassis\task_safe.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\task_safe.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\task_safe.o: ..\CONTROL\RemoteControl\RemoteControl.h
+sentry_chassis\task_safe.o: ..\ALGORITHM\pid\pid.h
+sentry_chassis\task_safe.o: ..\ALGORITHM\rmmotor\rmmotor.h
+sentry_chassis\task_safe.o: ..\ALGORITHM\maths\maths.h
+sentry_chassis\task_safe.o: ..\ALGORITHM\math_filter\filter.h

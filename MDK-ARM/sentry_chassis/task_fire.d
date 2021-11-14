@@ -1,11 +1,13 @@
 sentry_chassis\task_fire.o: ..\TASK\Task_Fire\Task_Fire.c
 sentry_chassis\task_fire.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\task_fire.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_fire.o: ..\TASK\Task_Chassis\Task_Chassis.h
-sentry_chassis\task_fire.o: ..\SYSTEM\SysInit\SysInit.h
 sentry_chassis\task_fire.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_fire.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\task_fire.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 sentry_chassis\task_fire.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -55,7 +57,9 @@ sentry_chassis\task_fire.o: ../Core/Inc/dma.h
 sentry_chassis\task_fire.o: ../Core/Inc/usart.h
 sentry_chassis\task_fire.o: ../Core/Inc/gpio.h
 sentry_chassis\task_fire.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
-sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-sentry_chassis\task_fire.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\task_fire.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\task_fire.o: ..\CONTROL\RemoteControl\RemoteControl.h
+sentry_chassis\task_fire.o: ..\ALGORITHM\pid\pid.h
+sentry_chassis\task_fire.o: ..\ALGORITHM\rmmotor\rmmotor.h
+sentry_chassis\task_fire.o: ..\ALGORITHM\maths\maths.h
+sentry_chassis\task_fire.o: ..\ALGORITHM\math_filter\filter.h

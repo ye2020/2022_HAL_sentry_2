@@ -1,11 +1,13 @@
 sentry_chassis\task_led.o: ..\TASK\Task_Led\Task_LED.c
 sentry_chassis\task_led.o: ..\TASK\Task_Led\Task_LED.h
 sentry_chassis\task_led.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
+sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_led.o: ..\TASK\Task_Chassis\Task_Chassis.h
-sentry_chassis\task_led.o: ..\SYSTEM\SysInit\SysInit.h
 sentry_chassis\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
-sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_led.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h
 sentry_chassis\task_led.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h
@@ -55,7 +57,9 @@ sentry_chassis\task_led.o: ../Core/Inc/dma.h
 sentry_chassis\task_led.o: ../Core/Inc/usart.h
 sentry_chassis\task_led.o: ../Core/Inc/gpio.h
 sentry_chassis\task_led.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
-sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-sentry_chassis\task_led.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\task_led.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\task_led.o: ..\CONTROL\RemoteControl\RemoteControl.h
+sentry_chassis\task_led.o: ..\ALGORITHM\pid\pid.h
+sentry_chassis\task_led.o: ..\ALGORITHM\rmmotor\rmmotor.h
+sentry_chassis\task_led.o: ..\ALGORITHM\maths\maths.h
+sentry_chassis\task_led.o: ..\ALGORITHM\math_filter\filter.h

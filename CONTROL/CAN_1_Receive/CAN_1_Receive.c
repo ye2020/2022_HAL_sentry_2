@@ -135,6 +135,7 @@ static void CAN1_receive(CAN_HandleTypeDef *hcan)
 					motor_chassis[0].temperate		 =	Rx_Data[6];
 					
 //					Motor_Actual_Position(&motor_chassis[1],CHASSIS_RATIO,8192);
+
             break;
         }
 

@@ -16,7 +16,6 @@
 #ifndef TASK_LED_H
 #define TASK_LED_H
 	
-#include "SysInit.h"	
 	
 	
 /*OS控制任务周期以及启动时间*/

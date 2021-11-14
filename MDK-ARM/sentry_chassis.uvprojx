@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F; ../Drivers/CMSIS/Device/ST/STM32F4xx/Include; ../Drivers/CMSIS/Include; ..\TASK\Task_Chassis; ..\TASK\Task_Detect; ..\TASK\Task_Fire; ..\TASK\Task_Gimbal; ..\TASK\Task_Safe; ..\SYSTEM\SysInit; ..\TASK\Task_Led; ..\CONTROL\RemoteControl; ..\SYSTEM\bsp_usart2; ..\SYSTEM\FIFO_BUFF; ..\ALGORITHM\rmmotor; ..\CONTROL\CAN_1_Receive</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\TASK\Task_Chassis;..\TASK\Task_Detect;..\TASK\Task_Fire;..\TASK\Task_Gimbal;..\TASK\Task_Safe;..\SYSTEM\SysInit;..\TASK\Task_Led;..\CONTROL\RemoteControl;..\SYSTEM\bsp_usart2;..\SYSTEM\FIFO_BUFF;..\ALGORITHM\rmmotor;..\CONTROL\CAN_1_Receive;..\ALGORITHM\pid;..\ALGORITHM\maths;..\ALGORITHM\list_of_function;..\ALGORITHM\math_filter</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -602,6 +602,26 @@
               <FileName>rmmotor.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\ALGORITHM\rmmotor\rmmotor.c</FilePath>
+            </File>
+            <File>
+              <FileName>pid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ALGORITHM\pid\pid.c</FilePath>
+            </File>
+            <File>
+              <FileName>maths.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ALGORITHM\maths\maths.c</FilePath>
+            </File>
+            <File>
+              <FileName>list_of_function.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>..\ALGORITHM\list_of_function\list_of_function.h</FilePath>
+            </File>
+            <File>
+              <FileName>filter.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\ALGORITHM\math_filter\filter.c</FilePath>
             </File>
           </Files>
         </Group>

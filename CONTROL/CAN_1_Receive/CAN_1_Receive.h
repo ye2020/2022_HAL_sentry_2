@@ -21,7 +21,7 @@
 
 
 #include "main.h"
-#include "SysInit.h"
+
 
 
 //rm电机统一数据结构体
