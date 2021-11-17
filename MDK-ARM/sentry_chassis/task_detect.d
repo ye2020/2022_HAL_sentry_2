@@ -6,6 +6,7 @@ sentry_chassis\task_detect.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 sentry_chassis\task_detect.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\task_detect.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_detect.o: ..\TASK\Task_Chassis\Task_Chassis.h
+sentry_chassis\task_detect.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
 sentry_chassis\task_detect.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_detect.o: F:\keil5\ARM\ARMCC\Bin\..\include\stddef.h
 sentry_chassis\task_detect.o: ../Core/Inc/FreeRTOSConfig.h
@@ -57,8 +58,11 @@ sentry_chassis\task_detect.o: ../Core/Inc/dma.h
 sentry_chassis\task_detect.o: ../Core/Inc/usart.h
 sentry_chassis\task_detect.o: ../Core/Inc/gpio.h
 sentry_chassis\task_detect.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
+sentry_chassis\task_detect.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h
 sentry_chassis\task_detect.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\task_detect.o: ..\CONTROL\RemoteControl\RemoteControl.h
+sentry_chassis\task_detect.o: ..\CONTROL\chassis_app\chassis_app.h
+sentry_chassis\task_detect.o: ..\CONTROL\gimbal_app\gimbal_app.h
 sentry_chassis\task_detect.o: ..\ALGORITHM\pid\pid.h
 sentry_chassis\task_detect.o: ..\ALGORITHM\rmmotor\rmmotor.h
 sentry_chassis\task_detect.o: ..\ALGORITHM\maths\maths.h

@@ -56,6 +56,7 @@ typedef struct
 int32_t fifo_init(fifo_rx_def *pfifo, uint8_t *buff, uint32_t size);
 uint32_t fifo_read_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len);
 uint32_t fifo_write_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len);
+unsigned int fifo_get_full(fifo_rx_def *pfifo);
 
 
 #endif /* __NEPQIU_FIFO_BUFF_H */

@@ -49,8 +49,6 @@
 
 /* USER CODE END Variables */
 osThreadId defaultTaskHandle;
-osThreadId ChassisTaskHandle;
-osThreadId GIMBALTASKHandle;
 osThreadId FireTaskHandle;
 osThreadId DetectTASKHandle;
 osThreadId SAFETASKHandle;
@@ -62,8 +60,6 @@ osThreadId LedTaskHandle;
 /* USER CODE END FunctionPrototypes */
 
 void StartDefaultTask(void const * argument);
-extern void Chassis_Task(void const * argument);
-extern void GIMBAL_TASK(void const * argument);
 extern void Fire_Task(void const * argument);
 extern void Detect_TASK(void const * argument);
 extern void SAFE_TASK(void const * argument);
@@ -117,14 +113,6 @@ void MX_FREERTOS_Init(void) {
   /* definition and creation of defaultTask */
   osThreadDef(defaultTask, StartDefaultTask, osPriorityNormal, 0, 128);
   defaultTaskHandle = osThreadCreate(osThread(defaultTask), NULL);
-
-  /* definition and creation of ChassisTask */
-  osThreadDef(ChassisTask, Chassis_Task, osPriorityRealtime, 0, 200);
-  ChassisTaskHandle = osThreadCreate(osThread(ChassisTask), NULL);
-
-  /* definition and creation of GIMBALTASK */
-  osThreadDef(GIMBALTASK, GIMBAL_TASK, osPriorityRealtime, 0, 200);
-  GIMBALTASKHandle = osThreadCreate(osThread(GIMBALTASK), NULL);
 
   /* definition and creation of FireTask */
   osThreadDef(FireTask, Fire_Task, osPriorityAboveNormal, 0, 128);

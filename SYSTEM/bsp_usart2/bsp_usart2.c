@@ -4,6 +4,7 @@
 #include "main.h"
 
 
+
 extern UART_HandleTypeDef huart2;
 //extern DMA_HandleTypeDef hdma_usart2_rx;
 //extern DMA_HandleTypeDef hdma_usart2_tx;
@@ -46,7 +47,7 @@ int fgetc(FILE *f)
 
 #define USART2_RX_LEN   256
 #define USART2_TX_LEN   512
-static uint8_t Usart2_Rx[USART2_RX_LEN] = {0};
+uint8_t Usart2_Rx[USART2_RX_LEN] = {0};
 static uint8_t Usart2_Tx[USART2_TX_LEN] = {0};
 static uint8_t Usart2_Rx_Buffer[USART2_RX_LEN] = {0};
 static uint8_t Usart2_Tx_Buffer[USART2_TX_LEN] = {0};
@@ -54,6 +55,7 @@ static uint8_t Usart2_Tx_Buffer[USART2_TX_LEN] = {0};
 fifo_rx_def fifo_usart2_rx;
 fifo_rx_def fifo_usart2_tx;
 
+fifo_rx_def *pfifo_2 = &fifo_usart2_rx;
 
 
 void bsp_usart2_init(void)
@@ -83,10 +85,13 @@ void bsp_usart2_init(void)
 }
 
 
-void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+//void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
+volatile uint32_t num = 0;
+
+void USART2_IRQHandler_callback(UART_HandleTypeDef *huart)
 {
 
-		volatile uint32_t num = 0;
+		
 		
 		num = huart->Instance->SR; //清除RXNE标志
 		num = huart->Instance->DR; //清USART_IT_IDLE标志
@@ -94,6 +99,23 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 		__HAL_DMA_DISABLE(huart2.hdmarx);  // 关闭串口DMA发送通道
 		
 		num = USART2_RX_LEN - __HAL_DMA_GET_COUNTER(huart2.hdmarx);  //! 获取DMA中未传输的数据个数，NDTR寄存器分析参考中文参考手册 （DMA_Channel_TypeDef）  这个不同的芯片HAL库里面定义的命名有点不同
+//			num = __HAL_DMA_GET_COUNTER(huart2.hdmarx);
+//	if (pfifo_2 != 0)
+//		{
+//			// Len为当前接收索引
+//			pfifo_2->in += ((pfifo_2->last_cnt - num) & (pfifo_2->size - 1)); //更新in
+//			pfifo_2->last_cnt = num;
+
+//			if ((pfifo_2->in - pfifo_2->out) > pfifo_2->size)
+//			{
+//				pfifo_2->out = pfifo_2->in; // 清空缓存，注意赋值顺序，pfifo->in = pfifo->out 是错误的
+//				pfifo_2->error |= FIFO_DMA_ERROR_RX_FULL;
+//			}
+//		}
+//		else
+//		{
+//			pfifo_2->error |= FIFO_DMA_ERROR_RX_POINT_NULL;
+//		}
 		fifo_write_buff(&fifo_usart2_rx, Usart2_Rx, num);
 		
 		HAL_UART_Receive_DMA(&huart2, Usart2_Rx, USART2_RX_LEN); // 启动DMA接收

@@ -23,6 +23,7 @@
 
 /************************* Task ************************/
 #include "Task_Chassis.h"
+#include "Task_Gimbal.h"
 
 /* ************************freertos******************** */
 #include "freertos.h"
@@ -38,12 +39,14 @@
 #include "usart.h"
 #include "gpio.h"
 #include "bsp_usart2.h"
+#include "fifo_buff.h"
 
 
 /* ************************ CONTROL ******************** */	
 #include "CAN_1_Receive.h"
 #include "RemoteControl.h"
-
+#include "chassis_app.h"
+#include "gimbal_app.h"
 /* ************************ ALGORITHM ******************** */	
 
 #include "pid.h"
@@ -55,7 +58,8 @@
 
 /* ************************  分割线  ******************** */	
 
-
+#define CHASSIS_APP 0
+#define GIMBAL_APP  15
 
 
 //LED端口定义

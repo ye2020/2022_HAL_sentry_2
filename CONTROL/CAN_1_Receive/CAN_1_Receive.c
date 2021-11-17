@@ -108,7 +108,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
     CAN_RxHeaderTypeDef	Rxmessage;	
     
     if(hcan == &hcan1)					
-        CAN1_receive(hcan)	;               
+        CAN1_chassis_receive(hcan)	;               
 
 
 
@@ -118,7 +118,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 /*************************************can1接收处理函数*************************************/
 		CAN_RxHeaderTypeDef	rx_message;															//接收信息结构体
 
-static void CAN1_receive(CAN_HandleTypeDef *hcan)
+static void CAN1_chassis_receive(CAN_HandleTypeDef *hcan)
 {
    	uint8_t Rx_Data[8];																					//接收的信息缓存的数组
 		

@@ -1,6 +1,7 @@
 #include "pid.h"     
 #include "maths.h"
 #include "SysInit.h"
+#include <math.h>
 
 /*
 *功能：对传入数据进行位置式pid运算并输出值

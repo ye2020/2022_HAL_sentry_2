@@ -1,6 +1,9 @@
 {
     "C_Cpp.errorSquiggles": "Disabled",
     "files.associations": {
-        "can_1_receive.h": "c"
+        "can_1_receive.h": "c",
+        "sysinit.h": "c",
+        "gimbal_app.h": "c",
+        "chassis_app.h": "c"
     }
 }

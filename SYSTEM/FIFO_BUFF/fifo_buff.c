@@ -155,11 +155,13 @@ uint32_t fifo_read_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len)
   * @attention
   */
 
+uint32_t abc=0;
 uint32_t fifo_write_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len)
 {
     uint32_t length;
 
     len = min_fifo(len, (pfifo->size - (pfifo->in - pfifo->out)));
+		abc = len;
 
     length = min_fifo(len, pfifo->size - (pfifo->in & (pfifo->size - 1)));
 

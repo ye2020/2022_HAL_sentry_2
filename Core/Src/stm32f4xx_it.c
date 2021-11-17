@@ -28,6 +28,7 @@
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN TD */
 #include "RemoteControl.h"
+#include "SysInit.h"
 /* USER CODE END TD */
 
 /* Private define ------------------------------------------------------------*/
@@ -280,7 +281,7 @@ void USART2_IRQHandler(void)
   /* USER CODE END USART2_IRQn 0 */
   HAL_UART_IRQHandler(&huart2);
   /* USER CODE BEGIN USART2_IRQn 1 */
-
+	USART2_IRQHandler_callback(&huart2);
   /* USER CODE END USART2_IRQn 1 */
 }
 

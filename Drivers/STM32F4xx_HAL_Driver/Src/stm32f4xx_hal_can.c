@@ -1720,7 +1720,6 @@ HAL_StatusTypeDef HAL_CAN_DeactivateNotification(CAN_HandleTypeDef *hcan, uint32
   *         the configuration information for the specified CAN.
   * @retval None
   */
-
 void HAL_CAN_IRQHandler(CAN_HandleTypeDef *hcan)
 {
   uint32_t errorcode = HAL_CAN_ERROR_NONE;

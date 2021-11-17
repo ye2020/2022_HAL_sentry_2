@@ -45,7 +45,7 @@ typedef struct
 
 
 
-void CAN1_receive(CAN_HandleTypeDef *hcan);
+static void CAN1_chassis_receive(CAN_HandleTypeDef *hcan);
 void CAN1_filter_config(void);
 void CAN_Send_Msg(int16_t ESC_201, int16_t ESC_202, int16_t ESC_203, int16_t ESC_204);
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan);
