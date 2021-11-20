@@ -39,6 +39,9 @@ sentry_chassis\remotecontrol.o: ..\SYSTEM\SysInit\SysInit.h
 sentry_chassis\remotecontrol.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 sentry_chassis\remotecontrol.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\remotecontrol.o: ..\TASK\Task_Chassis\Task_Chassis.h
+sentry_chassis\remotecontrol.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
+sentry_chassis\remotecontrol.o: ..\ALGORITHM\pid\pid.h
+sentry_chassis\remotecontrol.o: ..\ALGORITHM\maths\maths.h
 sentry_chassis\remotecontrol.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
 sentry_chassis\remotecontrol.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\remotecontrol.o: ../Core/Inc/FreeRTOSConfig.h
@@ -59,10 +62,9 @@ sentry_chassis\remotecontrol.o: ../Core/Inc/dma.h
 sentry_chassis\remotecontrol.o: ../Core/Inc/gpio.h
 sentry_chassis\remotecontrol.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\remotecontrol.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h
-sentry_chassis\remotecontrol.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\remotecontrol.o: ..\CONTROL\chassis_app\chassis_app.h
 sentry_chassis\remotecontrol.o: ..\CONTROL\gimbal_app\gimbal_app.h
-sentry_chassis\remotecontrol.o: ..\ALGORITHM\pid\pid.h
+sentry_chassis\remotecontrol.o: ..\CONTROL\chassis_behaviour\chassis_behaviour.h
+sentry_chassis\remotecontrol.o: ..\CONTROL\gimbal_behaviour\gimbal_behaviour.h
 sentry_chassis\remotecontrol.o: ..\ALGORITHM\rmmotor\rmmotor.h
-sentry_chassis\remotecontrol.o: ..\ALGORITHM\maths\maths.h
 sentry_chassis\remotecontrol.o: ..\ALGORITHM\math_filter\filter.h

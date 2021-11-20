@@ -45,6 +45,8 @@
 "sentry_chassis\can_1_receive.o"
 "sentry_chassis\chassis_app.o"
 "sentry_chassis\gimbal_app.o"
+"sentry_chassis\chassis_behaviour.o"
+"sentry_chassis\gimbal_behaviour.o"
 "sentry_chassis\task_chassis.o"
 "sentry_chassis\task_fire.o"
 "sentry_chassis\task_gimbal.o"

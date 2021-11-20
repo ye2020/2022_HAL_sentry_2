@@ -41,6 +41,13 @@ static motor_measure_t motor_pitch;
     }
 
 
+//返回底盘电机变量地址，通过指针方式获取原始数据
+const motor_measure_t *get_Chassis_Motor_Measure_Point(uint8_t i)
+{
+    return &motor_chassis[(i & 0x03)];  //(i & 0x03)
+}
+
+
 
 /**
 	* @brief		滤波器配置
@@ -105,8 +112,8 @@ void CAN_Send_Msg(int16_t ESC_201, int16_t ESC_202, int16_t ESC_203, int16_t ESC
 
 void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
-    CAN_RxHeaderTypeDef	Rxmessage;	
-    
+/*     CAN_RxHeaderTypeDef	Rxmessage;	
+ */    
     if(hcan == &hcan1)					
         CAN1_chassis_receive(hcan)	;               
 
@@ -116,10 +123,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 
 
 /*************************************can1接收处理函数*************************************/
-		CAN_RxHeaderTypeDef	rx_message;															//接收信息结构体
 
 static void CAN1_chassis_receive(CAN_HandleTypeDef *hcan)
 {
+  	CAN_RxHeaderTypeDef	rx_message;															//接收信息结构体
+
    	uint8_t Rx_Data[8];																					//接收的信息缓存的数组
 		
   if(  HAL_CAN_GetRxMessage(hcan, CAN_RX_FIFO0, &rx_message, Rx_Data) == HAL_OK)	//读取接收的信息

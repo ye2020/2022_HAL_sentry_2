@@ -47,6 +47,8 @@
 #include "RemoteControl.h"
 #include "chassis_app.h"
 #include "gimbal_app.h"
+#include "chassis_behaviour.h"
+#include "gimbal_behaviour.h"
 /* ************************ ALGORITHM ******************** */	
 
 #include "pid.h"
@@ -60,6 +62,8 @@
 
 #define CHASSIS_APP 0
 #define GIMBAL_APP  15
+
+#define chassis_using		 1    //底盘运动   0 -> 不使用   1 -> 使用
 
 
 //LED端口定义

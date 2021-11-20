@@ -245,7 +245,6 @@ void RC_unable(void)
 void USER_UART_IRQHandler(UART_HandleTypeDef *huart)
 {
 	
-	uint16_t this_time_rx_len;
 	LEDE0 = 0;
 	
 	if(huart1.Instance->SR & UART_FLAG_RXNE)//接收到数据
@@ -338,3 +337,25 @@ void RC_restart(uint16_t dma_buf_num)
 }
 
 
+/**
+  * @brief          摇杆量清零
+  * @param[in]      none
+  * @retval         none
+  * @attention      
+  */
+void Remote_reload(void)
+{
+	rc_ctrl.rc.ch[0] = 0;
+	rc_ctrl.rc.ch[1] = 0;
+	rc_ctrl.rc.ch[2] = 0;
+	rc_ctrl.rc.ch[3] = 0;
+	rc_ctrl.rc.ch[4] = 0;
+//	rc_ctrl.rc.s1 = RC_SW_ERROR;  //出现错误为0
+//	rc_ctrl.rc.s2 = RC_SW_ERROR;  //出现错误为0
+	rc_ctrl.mouse.x = 0;
+	rc_ctrl.mouse.y = 0;
+	rc_ctrl.mouse.z = 0;
+	rc_ctrl.mouse.press_l = 0;
+	rc_ctrl.mouse.press_r = 0;
+	rc_ctrl.key.v = 0;
+}

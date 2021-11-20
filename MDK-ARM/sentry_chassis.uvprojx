@@ -339,7 +339,7 @@
               <MiscControls></MiscControls>
               <Define>USE_HAL_DRIVER,STM32F407xx</Define>
               <Undefine></Undefine>
-              <IncludePath>../Core/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc; ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy; ../Middlewares/Third_Party/FreeRTOS/Source/include; ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS; ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F; ../Drivers/CMSIS/Device/ST/STM32F4xx/Include; ../Drivers/CMSIS/Include; ..\TASK\Task_Chassis; ..\TASK\Task_Detect; ..\TASK\Task_Fire; ..\TASK\Task_Gimbal; ..\TASK\Task_Safe; ..\SYSTEM\SysInit; ..\TASK\Task_Led; ..\CONTROL\RemoteControl; ..\SYSTEM\bsp_usart2; ..\SYSTEM\FIFO_BUFF; ..\ALGORITHM\rmmotor; ..\CONTROL\CAN_1_Receive; ..\ALGORITHM\pid; ..\ALGORITHM\maths; ..\ALGORITHM\list_of_function; ..\ALGORITHM\math_filter; ..\CONTROL\chassis_app; ..\CONTROL\gimbal_app</IncludePath>
+              <IncludePath>../Core/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc;../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F;../Drivers/CMSIS/Device/ST/STM32F4xx/Include;../Drivers/CMSIS/Include;..\TASK\Task_Chassis;..\TASK\Task_Detect;..\TASK\Task_Fire;..\TASK\Task_Gimbal;..\TASK\Task_Safe;..\SYSTEM\SysInit;..\TASK\Task_Led;..\CONTROL\RemoteControl;..\SYSTEM\bsp_usart2;..\SYSTEM\FIFO_BUFF;..\ALGORITHM\rmmotor;..\CONTROL\CAN_1_Receive;..\ALGORITHM\pid;..\ALGORITHM\maths;..\ALGORITHM\list_of_function;..\ALGORITHM\math_filter;..\CONTROL\chassis_app;..\CONTROL\gimbal_app;..\CONTROL\chassis_behaviour;..\CONTROL\gimbal_behaviour</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -647,6 +647,16 @@
               <FileName>gimbal_app.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\CONTROL\gimbal_app\gimbal_app.c</FilePath>
+            </File>
+            <File>
+              <FileName>chassis_behaviour.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CONTROL\chassis_behaviour\chassis_behaviour.c</FilePath>
+            </File>
+            <File>
+              <FileName>gimbal_behaviour.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\CONTROL\gimbal_behaviour\gimbal_behaviour.c</FilePath>
             </File>
           </Files>
         </Group>

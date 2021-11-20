@@ -89,7 +89,7 @@ void task_init(void)
 {
 	uint8_t app = 0;
 //	app = DIP_Switch();
-		app = GIMBAL_APP;
+		app = CHASSIS_APP;
 	
 	if(app == CHASSIS_APP)
 	{

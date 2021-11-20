@@ -4,6 +4,9 @@
         "can_1_receive.h": "c",
         "sysinit.h": "c",
         "gimbal_app.h": "c",
-        "chassis_app.h": "c"
+        "chassis_app.h": "c",
+        "chassis_behaviour.h": "c",
+        "remotecontrol.h": "c",
+        "task_chassis.h": "c"
     }
 }

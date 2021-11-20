@@ -29,6 +29,8 @@
                 "d:\\workspace\\2022_HAL_sentry\\ALGORITHM\\math_filter",
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\chassis_app",
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\gimbal_app",
+                "d:\\workspace\\2022_HAL_sentry\\CONTROL\\chassis_behaviour",
+                "d:\\workspace\\2022_HAL_sentry\\CONTROL\\gimbal_behaviour",
                 "F:\\keil5\\ARM\\ARMCC\\include",
                 "F:\\keil5\\ARM\\ARMCC\\include\\rw",
                 "d:\\workspace\\2022_HAL_sentry\\MDK-ARM",

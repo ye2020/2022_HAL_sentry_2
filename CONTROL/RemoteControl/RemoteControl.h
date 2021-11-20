@@ -70,6 +70,8 @@ extern void RC_restart(uint16_t dma_buf_num);
 extern const RC_ctrl_t *get_remote_control_point(void);
 void USER_UART_IRQHandler(UART_HandleTypeDef *huart);
 void sbus_to_usart1(uint8_t *sbus);
+void Remote_reload(void);
+uint8_t RC_data_is_error(void);
 
 
 
