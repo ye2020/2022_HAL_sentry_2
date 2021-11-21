@@ -15,7 +15,7 @@
 	
 #include "Task_Chassis.h"
 #include "SysInit.h"
-
+#include "rng.h"
 /**************** 函数声明 *******************/ 
 
 static void chassis_remote_mode_choose(chassis_control_t *chassis_mode_choose_f);       // 底盘遥控模式选择
@@ -35,7 +35,7 @@ static	 uint8_t buff_read[128];
 
 //底盘控制数据 static
  chassis_control_t chassis_control;
-
+uint16_t rng1 = 0, rng2 = 0;
 void Chassis_Task(void const * argument)
 	{
 	    //空闲一段时间
@@ -46,6 +46,7 @@ void Chassis_Task(void const * argument)
 
 		while(1)
 		{
+			rng2 = RNG_Get_RandomRange(0 , 5000);
 			
       /* 底盘控制 */
       chassis_controlwork(&chassis_control);
@@ -56,10 +57,10 @@ void Chassis_Task(void const * argument)
 			LEDE1 = 0;                  // LED1 (PE1 亮)
 
     // 底盘发送电流值
-      CAN_Send_Msg(chassis_control.chassis_motor[0].output,
-                   chassis_control.chassis_motor[1].output,
-                   chassis_control.chassis_motor[2].output,
-                   chassis_control.chassis_motor[3].output  );
+      Chassis_CAN_Send_Msg(chassis_control.chassis_motor[0].output,
+													 chassis_control.chassis_motor[1].output,
+													 chassis_control.chassis_motor[2].output,
+													 chassis_control.chassis_motor[3].output  );
   #endif
 			//检测周期
 		vTaskDelay(CHASSIS_CONTROL_TIME);
@@ -153,7 +154,7 @@ static void chassis_init(chassis_control_t *chassis_move_init_f)
     }
 
     //底盘开机状态为停止 (注意必须在获取指针以后)
-    chassis_move_init_f->chassis_mode = CHASSIS_STOP;
+    Chassis_Task_OFF(2);;
 
     // 开机时初始化前进方向
     chassis_move_init_f->sign = GOFORWARD;
@@ -234,7 +235,8 @@ static void chassis_data_update(chassis_control_t *chassis_data_update_f)
 static void chassis_pid_calc(chassis_control_t *chassis_pid_f)
 {
   // 速度环pid （传入参数：速度环pid结构体spid，目标速度值setSpeed，实际速度值actualSpeed ，电流限幅 current_limit）
-   chassis_pid_f->chassis_motor[0].output = Rmmotor_Speed_control(&(chassis_pid_f->chassis_speed_pid[0]), chassis_pid_f->chassis_motor[0].speed_set, chassis_pid_f->chassis_motor[0].speed, M3508_MAX_OUTPUT_CURRENT); //M3508_MAX_OUTPUT_CURRENT
+
+	 chassis_pid_f->chassis_motor[0].output = Rmmotor_Speed_control(&(chassis_pid_f->chassis_speed_pid[0]), chassis_pid_f->chassis_motor[0].speed_set, chassis_pid_f->chassis_motor[0].speed, M3508_MAX_OUTPUT_CURRENT); //M3508_MAX_OUTPUT_CURRENT
    chassis_pid_f->chassis_motor[1].output = Rmmotor_Speed_control(&(chassis_pid_f->chassis_speed_pid[1]), chassis_pid_f->chassis_motor[1].speed_set, chassis_pid_f->chassis_motor[1].speed, M3508_MAX_OUTPUT_CURRENT); //最大16000左右 MAX_MOTOR_CAN_OUTPUT
    chassis_pid_f->chassis_motor[2].output = Rmmotor_Speed_control(&(chassis_pid_f->chassis_speed_pid[2]), chassis_pid_f->chassis_motor[2].speed_set, chassis_pid_f->chassis_motor[2].speed, M3508_MAX_OUTPUT_CURRENT);
    chassis_pid_f->chassis_motor[3].output = Rmmotor_Speed_control(&(chassis_pid_f->chassis_speed_pid[3]), chassis_pid_f->chassis_motor[3].speed_set, chassis_pid_f->chassis_motor[3].speed, M3508_MAX_OUTPUT_CURRENT);
@@ -262,7 +264,7 @@ static void chassis_pid_calc(chassis_control_t *chassis_pid_f)
         /*底盘遥控模式*/
     if (chassis_set_f->chassis_mode == CHASSIS_REMOTECONTROL)
     {
-        chassis_set_f->speed_x_set = 5.0f * ch0;
+        chassis_set_f->speed_x_set =5.0f * ch0;
         chassis_set_f->chassis_motor[0].speed_set = chassis_set_f->speed_x_set;
     }
         /* 待机模式 */
@@ -290,3 +292,35 @@ static void chassis_pid_calc(chassis_control_t *chassis_pid_f)
 
 }
 
+/**
+  * @brief          底盘全部关闭
+  * @param[in]      options:  0:清除底盘控制量  1:禁止底盘   2:禁止底盘加yaw轴和拨弹轮
+  * @retval         none
+  * @attention
+  */
+void Chassis_Task_OFF(uint8_t options)
+{
+    //清除底盘控制量
+    chassis_control.speed_x_set = 0;
+    chassis_control.speed_y_set = 0;
+    chassis_control.chassis_motor[0].speed_set = 0;
+    chassis_control.chassis_motor[1].speed_set = 0;
+    chassis_control.chassis_motor[2].speed_set = 0;
+    chassis_control.chassis_motor[3].speed_set = 0;
+    chassis_control.chassis_motor[0].output = 0;
+    chassis_control.chassis_motor[1].output = 0;
+    chassis_control.chassis_motor[2].output = 0;
+    chassis_control.chassis_motor[3].output = 0;
+
+		chassis_control.chassis_mode = CHASSIS_STOP;
+
+    if (options)
+    {
+        Chassis_CAN_Send_Msg(0, 0,0,0);
+
+        if (options == 2)
+        {
+//            CAN1_Chassis_Gimbal_Fire(0, 0, 0);
+        }
+    }
+}

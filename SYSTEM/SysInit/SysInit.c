@@ -21,6 +21,7 @@ static  uint16_t  DIP_Switch(void);
 static void task_init(void);
 
 
+extern RNG_HandleTypeDef hrng;
 
 
 
@@ -39,18 +40,17 @@ extern DMA_HandleTypeDef hdma_usart3_rx;
 extern DMA_HandleTypeDef hdma_usart3_tx;
 extern DMA_HandleTypeDef hdma_usart6_rx;
 extern DMA_HandleTypeDef hdma_usart6_tx;
+extern RNG_HandleTypeDef hrng;
 
 
 void System_init(void)
 {
-	/* 遥控初始化 */
-		remote_control_init();
+
 	/*  can滤波配置初始化 */
 		CAN1_filter_config();
 	/*  串口二环形队列初始化 */
 		bsp_usart2_init();
-	
-	
+
 	/*  底盘云台选择 */
 		task_init();
 
@@ -106,3 +106,11 @@ void task_init(void)
 
 }
 
+//生成[min,max]范围的随机数
+int RNG_Get_RandomRange(int min,int max)
+{
+	uint32_t random;
+	HAL_RNG_GenerateRandomNumber(&hrng,&random);
+	
+	return random%(max-min+1) +min;
+}

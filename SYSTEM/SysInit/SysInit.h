@@ -66,6 +66,11 @@
 #define chassis_using		 1    //底盘运动   0 -> 不使用   1 -> 使用
 
 
+/*****各机器人的云台中值(如果用到编码器校准，目前2020赛季步兵P轴用到编码器初始化)******/
+#define Pitch_Middle_Angle  200 //哨兵50   -8  -82     42  -32  74
+#define Pitch_UP_Angle      190  //	
+
+
 //LED端口定义
 #define LEDE0 PEout(0)  //遥控
 #define LEDE1 PEout(1)  //底盘
@@ -138,7 +143,8 @@
 #define PITCH_RATIO		 (1.5*19)       //Pitch轴
 #define CHASSIS_RATIO  (1*19)					//底盘电机减速比
 #define Sec_YAW_RATIO  (3*1)          //副Yaw轴
-
+#define PITCH_GR			 (1.5)					//pitch传动比
+ 
 /* 底盘电机移动速度设定 */ 
 #define M3508_MAX_OUTPUT_CURRENT  5000   //m3508电机最大电流输出  
 #define M2006_MAX_OUTPUT_CURRENT  9500   //m2006电机最大电流输出
@@ -152,6 +158,7 @@
 
 
 void System_init(void);
+int RNG_Get_RandomRange(int min,int max);
 
 
 #endif

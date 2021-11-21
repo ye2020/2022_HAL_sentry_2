@@ -29,6 +29,7 @@ sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_e
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 sentry_chassis\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -48,6 +49,7 @@ sentry_chassis\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/semphr
 sentry_chassis\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h
 sentry_chassis\main.o: ../Core/Inc/can.h
 sentry_chassis\main.o: ../Core/Inc/dma.h
+sentry_chassis\main.o: ../Core/Inc/rng.h
 sentry_chassis\main.o: ../Core/Inc/usart.h
 sentry_chassis\main.o: ../Core/Inc/gpio.h
 sentry_chassis\main.o: ..\SYSTEM\SysInit\SysInit.h

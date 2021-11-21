@@ -23,7 +23,8 @@
 
 extern CAN_HandleTypeDef hcan1;                     // 句柄
 
-static CAN_TxHeaderTypeDef Txmessage;				//发送的信息
+//void (*CAN1_receive_callback)(CAN_HandleTypeDef *);
+
 
 /*--------------------变量-----------------------*/
 //申明底盘电机变量 static
@@ -31,7 +32,7 @@ motor_measure_t motor_chassis[4];
 //申明拨弹电机变量
 static motor_measure_t motor_fire;
 //申明pitch轴电机变量
-static motor_measure_t motor_pitch;
+ motor_measure_t motor_pitch;
 
 //电机数据读取
 #define get_motor_M3508(ptr, rx_message)                                                  \
@@ -76,35 +77,6 @@ void CAN1_filter_config(void)
 
 
 /**
-	* @brief		can1发送函数
-	* @param		传入参数： ESC_201~ESC_204 -> 代表同一电调上4个不同ID的电机
-	*	@retval		none
-  */
-
-void CAN_Send_Msg(int16_t ESC_201, int16_t ESC_202, int16_t ESC_203, int16_t ESC_204)
-{
-    uint32_t send_mail_box;							//发送邮箱
-    uint8_t Data[8];										//发送数据的数组
-
-    Txmessage.StdId = 0x200;
-    Txmessage.IDE = CAN_ID_STD;
-    Txmessage.RTR = CAN_RTR_DATA;
-    Txmessage.DLC = 8;
-
-    Data[0] = (ESC_201 >> 8);
-    Data[1] = ESC_201;
-		Data[2] = (ESC_202>>8);
-		Data[3] = ESC_202;
-		Data[4] = (ESC_203>>8);
-		Data[5] = ESC_203;
-		Data[6] = (ESC_204>>8);
-		Data[7] = ESC_204;
-
-    HAL_CAN_AddTxMessage(&hcan1, &Txmessage, Data, &send_mail_box);			//将一段数据通过 CAN 总线发送
-}
-
-
-/**
 	* @brief		HAl库can1的回调函数
 	* @param		传入参数： CAN的句柄
 	* @retval   none
@@ -114,17 +86,18 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 {
 /*     CAN_RxHeaderTypeDef	Rxmessage;	
  */    
-    if(hcan == &hcan1)					
-        CAN1_chassis_receive(hcan)	;               
-
-
+    if(hcan == &hcan1)
+//			if(CAN1_receive_callback != NULL)
+//					CAN1_receive_callback(hcan)	;               
+		
+		CAN1_chassis_receive(hcan);
 
 }
 
 
 /*************************************can1接收处理函数*************************************/
 
-static void CAN1_chassis_receive(CAN_HandleTypeDef *hcan)
+ void CAN1_chassis_receive(CAN_HandleTypeDef *hcan)
 {
   	CAN_RxHeaderTypeDef	rx_message;															//接收信息结构体
 
@@ -146,7 +119,23 @@ static void CAN1_chassis_receive(CAN_HandleTypeDef *hcan)
 
             break;
         }
-
+				
+				case 0x01:
+				{
+					
+					motor_pitch.position = ((uint16_t)(Rx_Data[6] << 24) | (uint16_t)(Rx_Data[5] << 16) | (uint16_t)(Rx_Data[4] << 8) | (uint16_t)(Rx_Data[3] ));
+					
+				if(motor_pitch.position>=0&&motor_pitch.position<=150)
+					{
+						motor_pitch.position +=884;
+					}
+				else
+						motor_pitch.position -= 140;
+            motor_pitch.actual_Position = motor_pitch.position;   //实际值减去中间值
+            motor_pitch.pitch_angle = -(motor_pitch.actual_Position * 360 / 1024 / PITCH_GR - Pitch_Middle_Angle);
+            break;
+				
+				}
 			 default:
         {
             break;

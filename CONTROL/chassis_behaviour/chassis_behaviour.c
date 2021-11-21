@@ -15,6 +15,9 @@ static void Chassis_Auto(chassis_control_t *Chassis_Auto_f);                    
 static void Chassis_Blocking(chassis_control_t *Chassis_Blocking_f);                      // µ×ÅÌ×ßÎ»×´Ì¬º¯Êı
 static void Chassis_RemoteControl(chassis_control_t *Chassis_RemoteControl_f);            // µ×ÅÌÒ£¿Ø×´Ì¬º¯Êı
 
+uint8_t Get_Laser_Back();
+uint8_t Get_Laser_Forward();
+
 /********************************************/
 
 /****************** ±äÁ¿ *********************/
@@ -26,7 +29,7 @@ static float Chassis_ch0 = 0.0f, Chassis_ch1 = 0.0f, Chassis_ch2 = 0.0f; //µ×ÅÌµ
  Chassis_mode_e chassis_remote_control_Table[RC_SW1_lift][RC_SW2_right] = 
 {           /*ÓÒÉÏ*/                     /* ÓÒÏÂ */                          /* ÓÒÖĞ */
   /*×óÉÏ*/  {CHASSIS_AUTO,              CHASSIS_STANDBY,             CHASSIS_REMOTECONTROL},
-  /*×óÏÂ*/  {CHASSIS_REMOTECONTROL,     CHASSIS_STOP,                CHASSIS_REMOTECONTROL},
+  /*×óÏÂ*/  {CHASSIS_REMOTECONTROL,     CHASSIS_STANDBY,                CHASSIS_REMOTECONTROL},
   /*×óÖĞ*/  {CHASSIS_AUTO,              CHASSIS_STANDBY,             CHASSIS_REMOTECONTROL}
 };           
 
@@ -121,7 +124,7 @@ static void Chassis_Stop(chassis_control_t *Chassis_Stop_f)
   */
 static void Chassis_Auto(chassis_control_t *Chassis_Auto_f)
 {
-
+              Chassis_ch2 = CHASSIS_AUTO_SPPED;
 
 }
 
@@ -144,8 +147,32 @@ static void Chassis_Blocking(chassis_control_t *Chassis_Blocking_f)
   * @param[in]      *Chassis_Independent_f£ºµ×ÅÌÖ÷½á¹¹Ìå
   * @retval         none
   */
+uint8_t back = 0 ,forward = 0 ;
+
  static void Chassis_RemoteControl(chassis_control_t *Chassis_RemoteControl_f)
 {
-    Chassis_ch0 = Chassis_RemoteControl_f->chassis_RC->rc.ch[1];
-
+    Chassis_ch0 = Chassis_RemoteControl_f->chassis_RC->rc.ch[0];
+		back 		= Get_Laser_Back();
+	  forward = Get_Laser_Forward();
 }
+
+//»ñÈ¡¼¤¹â´«¸ĞÆ÷µÄÖµ
+//¾àÀëÄÚÓĞ¶«Î÷Îª0, Ã»¶«Î÷Îª1
+//ÓĞÏû¶¶´¦Àí
+
+uint8_t Get_Laser_Back()
+{
+		static int8_t b;
+		b = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_7);
+		
+		return b;
+}
+
+uint8_t Get_Laser_Forward()
+{
+		static int8_t a;
+		a = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_6);
+	
+		return a;
+}
+

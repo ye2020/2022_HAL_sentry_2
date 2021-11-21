@@ -55,6 +55,8 @@
 #define TRANSLATION_ACCELERAD     5.5f      //平移底盘加速度限制
 
 
+#define CHASSIS_AUTO_SPPED				4000			 //21赛季为7000			
+#define CHASSIS_BLOCKING_SPPED		    6700 //走位速度 ，挨打后的速度 7000  
 /***********************************  结构体 *************************************/
 
 /*底盘电机数据*/
@@ -131,6 +133,7 @@ typedef struct
 
 extern  void Chassis_Task(void const * argument);
 extern  void chassis_set_remote(chassis_control_t *chassis_set_f, int16_t ch0, int16_t ch1, int16_t ch2);
+extern  void Chassis_Task_OFF(uint8_t options);
 
 
 #endif

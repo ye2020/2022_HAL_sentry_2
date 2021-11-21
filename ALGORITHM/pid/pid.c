@@ -15,13 +15,14 @@ int32_t Location_Pid_Int32(PidTypeDef *pid , float actualValue)
 	pid->error[0] = pid->SetValue - actualValue;      
 	
 	//误差积分	
-	pid->Ierror += pid->error[0];
+//	pid->Ierror += pid->error[0];
+	pid->Ierror += (pid->error[0] + pid->error[1]) / 2;
 	//积分限幅
 	pid->Ierror = int32_limit(pid->Ierror, 10000, -10000);
 	
 	//微分项 记录
-	pid->Derror[2] = pid->Derror[1];
-	pid->Derror[1] = pid->Derror[0];
+//	pid->Derror[2] = pid->Derror[1];
+//	pid->Derror[1] = pid->Derror[0];
 	pid->Derror[0] = (pid->error[0] - pid->error[1]);
 	
 	//输出pid运算

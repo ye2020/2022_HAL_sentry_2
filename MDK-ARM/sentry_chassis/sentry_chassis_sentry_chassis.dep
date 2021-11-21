@@ -1,10 +1,10 @@
 Dependencies for Project 'sentry_chassis', Target 'sentry_chassis': (DO NOT MODIFY !)
 CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
-F (startup_stm32f407xx.s)(0x61950F6A)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ..\Core\Inc-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o sentry_chassis\startup_stm32f407xx.o --depend sentry_chassis\startup_stm32f407xx.d)
-F (../Core/Src/main.c)(0x61950F68)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\main.o --omf_browse sentry_chassis\main.crf --depend sentry_chassis\main.d)
-I (../Core/Inc/main.h)(0x61950F68)
+F (startup_stm32f407xx.s)(0x619A51F7)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I ..\Core\Inc-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 535" --pd "_RTE_ SETA 1" --pd "STM32F407xx SETA 1" --pd "_RTE_ SETA 1"--list startup_stm32f407xx.lst --xref -o sentry_chassis\startup_stm32f407xx.o --depend sentry_chassis\startup_stm32f407xx.d)
+F (../Core/Src/main.c)(0x619A5BC5)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\main.o --omf_browse sentry_chassis\main.crf --depend sentry_chassis\main.d)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -31,12 +31,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -48,33 +49,34 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/rng.h)(0x619A67BC)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/gpio.h)(0x619A51F1)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (../Core/Src/gpio.c)(0x61950F64)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\gpio.o --omf_browse sentry_chassis\gpio.crf --depend sentry_chassis\gpio.d)
-I (../Core/Inc/gpio.h)(0x61950F64)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/gpio.c)(0x619A51F1)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\gpio.o --omf_browse sentry_chassis\gpio.crf --depend sentry_chassis\gpio.d)
+I (../Core/Inc/gpio.h)(0x619A51F1)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -101,14 +103,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-F (../Core/Src/freertos.c)(0x61950F66)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\freertos.o --omf_browse sentry_chassis\freertos.crf --depend sentry_chassis\freertos.d)
+F (../Core/Src/freertos.c)(0x619A51F3)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\freertos.o --omf_browse sentry_chassis\freertos.crf --depend sentry_chassis\freertos.d)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -116,9 +119,9 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5FD833C8)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -143,6 +146,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
@@ -151,11 +155,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/queue.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-F (../Core/Src/can.c)(0x61950F66)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\can.o --omf_browse sentry_chassis\can.crf --depend sentry_chassis\can.d)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/can.c)(0x619A51F3)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\can.o --omf_browse sentry_chassis\can.crf --depend sentry_chassis\can.d)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -182,14 +186,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-F (../Core/Src/dma.c)(0x61950F67)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\dma.o --omf_browse sentry_chassis\dma.crf --depend sentry_chassis\dma.d)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/dma.c)(0x619A51F3)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\dma.o --omf_browse sentry_chassis\dma.crf --depend sentry_chassis\dma.d)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -216,14 +221,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-F (../Core/Src/usart.c)(0x61950F67)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\usart.o --omf_browse sentry_chassis\usart.crf --depend sentry_chassis\usart.d)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/rng.c)(0x619A67BC)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\rng.o --omf_browse sentry_chassis\rng.crf --depend sentry_chassis\rng.d)
+I (../Core/Inc/rng.h)(0x619A67BC)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -250,13 +256,15 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-F (../Core/Src/stm32f4xx_it.c)(0x61950F67)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_it.o --omf_browse sentry_chassis\stm32f4xx_it.crf --depend sentry_chassis\stm32f4xx_it.d)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/usart.c)(0x619A51F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\usart.o --omf_browse sentry_chassis\usart.crf --depend sentry_chassis\usart.d)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -283,23 +291,58 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_it.h)(0x61950F67)
+F (../Core/Src/stm32f4xx_it.c)(0x619A51F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_it.o --omf_browse sentry_chassis\stm32f4xx_it.crf --depend sentry_chassis\stm32f4xx_it.d)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5FD833C1)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5FD833C4)
+I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5FD833C1)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5FD83400)
+I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
+I (../Core/Inc/stm32f4xx_it.h)(0x619A51F4)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (../Core/Inc/usart.h)(0x61950F67)
+I (../Core/Inc/usart.h)(0x619A51F4)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -312,21 +355,21 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (../Core/Src/stm32f4xx_hal_msp.c)(0x61950F67)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_msp.o --omf_browse sentry_chassis\stm32f4xx_hal_msp.crf --depend sentry_chassis\stm32f4xx_hal_msp.d)
-I (../Core/Inc/main.h)(0x61950F68)
+F (../Core/Src/stm32f4xx_hal_msp.c)(0x619A51F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_msp.o --omf_browse sentry_chassis\stm32f4xx_hal_msp.crf --depend sentry_chassis\stm32f4xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -353,12 +396,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-F (../Core/Src/stm32f4xx_hal_timebase_tim.c)(0x61950F68)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_timebase_tim.o --omf_browse sentry_chassis\stm32f4xx_hal_timebase_tim.crf --depend sentry_chassis\stm32f4xx_hal_timebase_tim.d)
+F (../Core/Src/stm32f4xx_hal_timebase_tim.c)(0x619A51F4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_timebase_tim.o --omf_browse sentry_chassis\stm32f4xx_hal_timebase_tim.crf --depend sentry_chassis\stm32f4xx_hal_timebase_tim.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -385,12 +429,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_can.o --omf_browse sentry_chassis\stm32f4xx_hal_can.crf --depend sentry_chassis\stm32f4xx_hal_can.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -417,12 +462,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_rcc.o --omf_browse sentry_chassis\stm32f4xx_hal_rcc.crf --depend sentry_chassis\stm32f4xx_hal_rcc.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -449,12 +495,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_rcc_ex.o --omf_browse sentry_chassis\stm32f4xx_hal_rcc_ex.crf --depend sentry_chassis\stm32f4xx_hal_rcc_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -481,12 +528,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_flash.o --omf_browse sentry_chassis\stm32f4xx_hal_flash.crf --depend sentry_chassis\stm32f4xx_hal_flash.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -513,12 +561,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_flash_ex.o --omf_browse sentry_chassis\stm32f4xx_hal_flash_ex.crf --depend sentry_chassis\stm32f4xx_hal_flash_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -545,12 +594,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_flash_ramfunc.o --omf_browse sentry_chassis\stm32f4xx_hal_flash_ramfunc.crf --depend sentry_chassis\stm32f4xx_hal_flash_ramfunc.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -577,12 +627,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_gpio.o --omf_browse sentry_chassis\stm32f4xx_hal_gpio.crf --depend sentry_chassis\stm32f4xx_hal_gpio.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -609,12 +660,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_dma_ex.o --omf_browse sentry_chassis\stm32f4xx_hal_dma_ex.crf --depend sentry_chassis\stm32f4xx_hal_dma_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -641,12 +693,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_dma.o --omf_browse sentry_chassis\stm32f4xx_hal_dma.crf --depend sentry_chassis\stm32f4xx_hal_dma.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -673,12 +726,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_pwr.o --omf_browse sentry_chassis\stm32f4xx_hal_pwr.crf --depend sentry_chassis\stm32f4xx_hal_pwr.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -705,12 +759,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_pwr_ex.o --omf_browse sentry_chassis\stm32f4xx_hal_pwr_ex.crf --depend sentry_chassis\stm32f4xx_hal_pwr_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -737,12 +792,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_cortex.o --omf_browse sentry_chassis\stm32f4xx_hal_cortex.crf --depend sentry_chassis\stm32f4xx_hal_cortex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -769,12 +825,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal.o --omf_browse sentry_chassis\stm32f4xx_hal.crf --depend sentry_chassis\stm32f4xx_hal.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -801,12 +858,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_exti.o --omf_browse sentry_chassis\stm32f4xx_hal_exti.crf --depend sentry_chassis\stm32f4xx_hal_exti.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -833,12 +891,46 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
+F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rng.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_rng.o --omf_browse sentry_chassis\stm32f4xx_hal_rng.crf --depend sentry_chassis\stm32f4xx_hal_rng.d)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h)(0x5FD833C1)
+I (../Drivers/CMSIS/Include/core_cm4.h)(0x5FD833C4)
+I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5FD833C4)
+I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5FD833C1)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5FD83400)
+I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_gpio_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_exti.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_dma_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_cortex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_can.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_tim.o --omf_browse sentry_chassis\stm32f4xx_hal_tim.crf --depend sentry_chassis\stm32f4xx_hal_tim.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -865,12 +957,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_tim_ex.o --omf_browse sentry_chassis\stm32f4xx_hal_tim_ex.crf --depend sentry_chassis\stm32f4xx_hal_tim_ex.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -897,12 +990,13 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 F (../Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c)(0x5FD83400)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\stm32f4xx_hal_uart.o --omf_browse sentry_chassis\stm32f4xx_hal_uart.crf --depend sentry_chassis\stm32f4xx_hal_uart.d)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -929,6 +1023,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
@@ -943,7 +1038,7 @@ I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x5FD833C4)
 I (../Drivers/CMSIS/Include/mpu_armv7.h)(0x5FD833C4)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h)(0x5FD833C1)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x5FD83400)
@@ -961,6 +1056,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
@@ -968,7 +1064,7 @@ F (../Middlewares/Third_Party/FreeRTOS/Source/croutine.c)(0x5FD833C8)(--c99 -c -
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -982,7 +1078,7 @@ I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -997,7 +1093,7 @@ I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1010,7 +1106,7 @@ I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1024,7 +1120,7 @@ I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1039,7 +1135,7 @@ I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1054,7 +1150,7 @@ I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1070,7 +1166,7 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1088,7 +1184,7 @@ I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1100,7 +1196,7 @@ F (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/port.c)(0x5
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h)(0x5FD833C8)
 I (F:\keil5\ARM\ARMCC\include\stddef.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1108,11 +1204,11 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F/portmacro.h
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/mpu_wrappers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/task.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/list.h)(0x5FD833C8)
-F (..\ALGORITHM\rmmotor\rmmotor.c)(0x61912548)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\rmmotor.o --omf_browse sentry_chassis\rmmotor.crf --depend sentry_chassis\rmmotor.d)
+F (..\ALGORITHM\rmmotor\rmmotor.c)(0x6199B05F)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\rmmotor.o --omf_browse sentry_chassis\rmmotor.crf --depend sentry_chassis\rmmotor.d)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1139,22 +1235,23 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (../Core/Inc/usart.h)(0x61950F67)
+I (../Core/Inc/usart.h)(0x619A51F4)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1167,21 +1264,21 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\ALGORITHM\pid\pid.c)(0x6193A8DD)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\pid.o --omf_browse sentry_chassis\pid.crf --depend sentry_chassis\pid.d)
+F (..\ALGORITHM\pid\pid.c)(0x6199B3A2)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\pid.o --omf_browse sentry_chassis\pid.crf --depend sentry_chassis\pid.d)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1208,21 +1305,22 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1235,12 +1333,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -1249,9 +1347,9 @@ I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 I (F:\keil5\ARM\ARMCC\include\math.h)(0x60252378)
 F (..\ALGORITHM\maths\maths.c)(0x61912A6E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\maths.o --omf_browse sentry_chassis\maths.crf --depend sentry_chassis\maths.d)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1278,21 +1376,22 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1305,12 +1404,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -1322,7 +1421,7 @@ F (..\ALGORITHM\math_filter\filter.c)(0x61911A4E)(--c99 -c --cpu Cortex-M4.fp.sp
 F (..\CONTROL\RemoteControl\RemoteControl.c)(0x61990161)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\remotecontrol.o --omf_browse sentry_chassis\remotecontrol.crf --depend sentry_chassis\remotecontrol.d)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1349,22 +1448,23 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1377,22 +1477,22 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\CONTROL\CAN_1_Receive\CAN_1_Receive.c)(0x6198B0A9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\can_1_receive.o --omf_browse sentry_chassis\can_1_receive.crf --depend sentry_chassis\can_1_receive.d)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
-I (../Core/Inc/main.h)(0x61950F68)
+F (..\CONTROL\CAN_1_Receive\CAN_1_Receive.c)(0x619A5ADF)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\can_1_receive.o --omf_browse sentry_chassis\can_1_receive.crf --depend sentry_chassis\can_1_receive.d)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1419,21 +1519,22 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
-I (../Core/Inc/usart.h)(0x61950F67)
+I (../Core/Inc/usart.h)(0x619A51F4)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1446,27 +1547,27 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\CONTROL\chassis_app\chassis_app.c)(0x619511C4)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\chassis_app.o --omf_browse sentry_chassis\chassis_app.crf --depend sentry_chassis\chassis_app.d)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+F (..\CONTROL\chassis_app\chassis_app.c)(0x619A5B18)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\chassis_app.o --omf_browse sentry_chassis\chassis_app.crf --depend sentry_chassis\chassis_app.d)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1492,17 +1593,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1515,28 +1617,28 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\CONTROL\gimbal_app\gimbal_app.c)(0x61950FCA)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\gimbal_app.o --omf_browse sentry_chassis\gimbal_app.crf --depend sentry_chassis\gimbal_app.d)
+F (..\CONTROL\gimbal_app\gimbal_app.c)(0x619A4673)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\gimbal_app.o --omf_browse sentry_chassis\gimbal_app.crf --depend sentry_chassis\gimbal_app.d)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1562,17 +1664,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1585,22 +1688,22 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\CONTROL\chassis_behaviour\chassis_behaviour.c)(0x61990FF8)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\chassis_behaviour.o --omf_browse sentry_chassis\chassis_behaviour.crf --depend sentry_chassis\chassis_behaviour.d)
+F (..\CONTROL\chassis_behaviour\chassis_behaviour.c)(0x619A1267)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\chassis_behaviour.o --omf_browse sentry_chassis\chassis_behaviour.crf --depend sentry_chassis\chassis_behaviour.d)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1627,21 +1730,22 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1654,22 +1758,22 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\CONTROL\gimbal_behaviour\gimbal_behaviour.c)(0x619657A5)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\gimbal_behaviour.o --omf_browse sentry_chassis\gimbal_behaviour.crf --depend sentry_chassis\gimbal_behaviour.d)
-F (..\TASK\Task_Chassis\Task_Chassis.c)(0x61990E8E)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_chassis.o --omf_browse sentry_chassis\task_chassis.crf --depend sentry_chassis\task_chassis.d)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+F (..\TASK\Task_Chassis\Task_Chassis.c)(0x619A64E6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_chassis.o --omf_browse sentry_chassis\task_chassis.crf --depend sentry_chassis\task_chassis.d)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1696,21 +1800,22 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1723,28 +1828,29 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
+I (../Core/Inc/rng.h)(0x619A67BC)
 F (..\TASK\Task_Fire\Task_Fire.c)(0x61912BD9)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_fire.o --omf_browse sentry_chassis\task_fire.crf --depend sentry_chassis\task_fire.d)
 I (..\TASK\Task_Fire\Task_Fire.h)(0x619127DD)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1770,17 +1876,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1793,12 +1900,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -1806,15 +1913,15 @@ I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\TASK\Task_Gimbal\Task_Gimbal.c)(0x61752259)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_gimbal.o --omf_browse sentry_chassis\task_gimbal.crf --depend sentry_chassis\task_gimbal.d)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1840,16 +1947,17 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1862,12 +1970,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -1875,15 +1983,15 @@ I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\TASK\Task_Safe\Task_Safe.c)(0x6174CFCE)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_safe.o --omf_browse sentry_chassis\task_safe.crf --depend sentry_chassis\task_safe.d)
 I (..\TASK\Task_Safe\Task_Safe.h)(0x619127DD)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1909,17 +2017,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -1932,12 +2041,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -1945,15 +2054,15 @@ I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\TASK\Task_Detect\Task_Detect.c)(0x61752259)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_detect.o --omf_browse sentry_chassis\task_detect.crf --depend sentry_chassis\task_detect.d)
 I (..\TASK\Task_Detect\Task_Detect.h)(0x619127DD)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -1979,17 +2088,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -2002,12 +2112,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -2015,15 +2125,15 @@ I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\TASK\Task_Led\Task_LED.c)(0x61752259)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\task_led.o --omf_browse sentry_chassis\task_led.crf --depend sentry_chassis\task_led.d)
 I (..\TASK\Task_Led\Task_LED.h)(0x6193ADA8)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -2049,17 +2159,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -2072,27 +2183,27 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
 I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
-F (..\SYSTEM\SysInit\SysInit.c)(0x61964DA6)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\sysinit.o --omf_browse sentry_chassis\sysinit.crf --depend sentry_chassis\sysinit.d)
-I (..\SYSTEM\SysInit\SysInit.h)(0x6198FF48)
+F (..\SYSTEM\SysInit\SysInit.c)(0x619A67BC)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\sysinit.o --omf_browse sentry_chassis\sysinit.crf --depend sentry_chassis\sysinit.d)
+I (..\SYSTEM\SysInit\SysInit.h)(0x619A67BC)
 I (F:\keil5\ARM\ARMCC\include\stdlib.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (..\TASK\Task_Chassis\Task_Chassis.h)(0x61990E8E)
+I (..\TASK\Task_Chassis\Task_Chassis.h)(0x6199B904)
 I (..\CONTROL\RemoteControl\RemoteControl.h)(0x61990108)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -2118,17 +2229,18 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
-I (../Core/Inc/usart.h)(0x61950F67)
-I (../Core/Inc/main.h)(0x61950F68)
-I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x6198B0A9)
+I (../Core/Inc/usart.h)(0x619A51F4)
+I (../Core/Inc/main.h)(0x619A51F4)
+I (..\CONTROL\CAN_1_Receive\CAN_1_Receive.h)(0x619A5ADF)
 I (..\ALGORITHM\pid\pid.h)(0x619125F8)
 I (..\ALGORITHM\maths\maths.h)(0x61912A6E)
 I (..\TASK\Task_Gimbal\Task_Gimbal.h)(0x617560BC)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h)(0x5FD833C8)
-I (../Core/Inc/FreeRTOSConfig.h)(0x61950F66)
+I (../Core/Inc/FreeRTOSConfig.h)(0x619A51F3)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/portable.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/deprecated_definitions.h)(0x5FD833C8)
@@ -2141,12 +2253,12 @@ I (../Middlewares/Third_Party/FreeRTOS/Source/include/semphr.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/timers.h)(0x5FD833C8)
 I (../Middlewares/Third_Party/FreeRTOS/Source/include/event_groups.h)(0x5FD833C8)
-I (../Core/Inc/can.h)(0x61950F67)
-I (../Core/Inc/dma.h)(0x61950F67)
-I (../Core/Inc/gpio.h)(0x61950F64)
+I (../Core/Inc/can.h)(0x619A51F3)
+I (../Core/Inc/dma.h)(0x619A51F3)
+I (../Core/Inc/gpio.h)(0x619A51F1)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
-I (..\CONTROL\chassis_app\chassis_app.h)(0x619509FC)
+I (..\CONTROL\chassis_app\chassis_app.h)(0x619A4273)
 I (..\CONTROL\gimbal_app\gimbal_app.h)(0x61951074)
 I (..\CONTROL\chassis_behaviour\chassis_behaviour.h)(0x6198AD39)
 I (..\CONTROL\gimbal_behaviour\gimbal_behaviour.h)(0x619657B6)
@@ -2154,9 +2266,9 @@ I (..\ALGORITHM\rmmotor\rmmotor.h)(0x61912748)
 I (..\ALGORITHM\math_filter\filter.h)(0x61911A4E)
 F (..\SYSTEM\bsp_usart2\bsp_usart2.c)(0x6193CC2C)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\bsp_usart2.o --omf_browse sentry_chassis\bsp_usart2.crf --depend sentry_chassis\bsp_usart2.d)
 I (..\SYSTEM\bsp_usart2\bsp_usart2.h)(0x6193BC02)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -2183,20 +2295,21 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)
 I (F:\keil5\ARM\ARMCC\include\stdio.h)(0x60252374)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
-I (../Core/Inc/usart.h)(0x61950F67)
+I (../Core/Inc/usart.h)(0x619A51F4)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
 F (..\SYSTEM\FIFO_BUFF\fifo_buff.c)(0x6193BAA0)(--c99 -c --cpu Cortex-M4.fp.sp -g -O3 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Middlewares/Third_Party/FreeRTOS/Source/include -I ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I ../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include -I ..\TASK\Task_Chassis -I ..\TASK\Task_Detect -I ..\TASK\Task_Fire -I ..\TASK\Task_Gimbal -I ..\TASK\Task_Safe -I ..\SYSTEM\SysInit -I ..\TASK\Task_Led -I ..\CONTROL\RemoteControl -I ..\SYSTEM\bsp_usart2 -I ..\SYSTEM\FIFO_BUFF -I ..\ALGORITHM\rmmotor -I ..\CONTROL\CAN_1_Receive -I ..\ALGORITHM\pid -I ..\ALGORITHM\maths -I ..\ALGORITHM\list_of_function -I ..\ALGORITHM\math_filter -I ..\CONTROL\chassis_app -I ..\CONTROL\gimbal_app -I ..\CONTROL\chassis_behaviour -I ..\CONTROL\gimbal_behaviour-I.\RTE\_sentry_chassis-IC:\Users\admin\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\admin\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="535" -D_RTE_ -DSTM32F407xx -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F407xx-o sentry_chassis\fifo_buff.o --omf_browse sentry_chassis\fifo_buff.crf --depend sentry_chassis\fifo_buff.d)
 I (..\SYSTEM\FIFO_BUFF\fifo_buff.h)(0x6193A813)
 I (F:\keil5\ARM\ARMCC\include\string.h)(0x6025237E)
 I (F:\keil5\ARM\ARMCC\include\stdint.h)(0x618FB766)
-I (../Core/Inc/main.h)(0x61950F68)
+I (../Core/Inc/main.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x5FD83400)
-I (../Core/Inc/stm32f4xx_hal_conf.h)(0x61950F68)
+I (../Core/Inc/stm32f4xx_hal_conf.h)(0x619A51F4)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_def.h)(0x5FD83400)
 I (../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h)(0x5FD833C1)
@@ -2222,6 +2335,7 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h)(0x5FD83400)
+I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x5FD83400)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x5FD83400)

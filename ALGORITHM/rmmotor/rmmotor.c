@@ -22,11 +22,11 @@
 
 //ÉùÃ÷
 
-
+  int32_t output;
 int16_t Rmmotor_Speed_control(PidTypeDef *spid, int16_t setSpeed, int16_t actualSpeed, int16_t current_limit)
 {
-    int32_t output;
 
+  
     spid->SetValue = setSpeed;
     spid->ActualValue = actualSpeed;
 

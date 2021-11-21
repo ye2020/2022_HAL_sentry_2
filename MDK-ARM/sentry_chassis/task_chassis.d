@@ -30,6 +30,7 @@ sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr.h
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_pwr_ex.h
+sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rng.h
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim.h
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 sentry_chassis\task_chassis.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
@@ -68,3 +69,4 @@ sentry_chassis\task_chassis.o: ..\CONTROL\chassis_behaviour\chassis_behaviour.h
 sentry_chassis\task_chassis.o: ..\CONTROL\gimbal_behaviour\gimbal_behaviour.h
 sentry_chassis\task_chassis.o: ..\ALGORITHM\rmmotor\rmmotor.h
 sentry_chassis\task_chassis.o: ..\ALGORITHM\math_filter\filter.h
+sentry_chassis\task_chassis.o: ../Core/Inc/rng.h
