@@ -65,6 +65,7 @@ sentry_chassis\main.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
 sentry_chassis\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 sentry_chassis\main.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\main.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h
+sentry_chassis\main.o: ..\CONTROL\CAN_2_Receive\CAN_2_Receive.h
 sentry_chassis\main.o: ..\CONTROL\chassis_app\chassis_app.h
 sentry_chassis\main.o: ..\CONTROL\gimbal_app\gimbal_app.h
 sentry_chassis\main.o: ..\CONTROL\chassis_behaviour\chassis_behaviour.h

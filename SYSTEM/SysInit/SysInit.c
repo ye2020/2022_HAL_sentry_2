@@ -27,6 +27,7 @@ extern RNG_HandleTypeDef hrng;
 
 
 
+
 /*****************************/
 
 	
@@ -48,6 +49,9 @@ void System_init(void)
 
 	/*  can滤波配置初始化 */
 		CAN1_filter_config();
+	/*  can2滤波配置初始化 */
+		CAN2_filter_config();
+
 	/*  串口二环形队列初始化 */
 		bsp_usart2_init();
 

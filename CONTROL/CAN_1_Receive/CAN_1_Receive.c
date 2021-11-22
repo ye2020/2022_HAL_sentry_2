@@ -2,9 +2,9 @@
  *****************************东莞理工学院ACE实验室 *****************************
  * @file 			can_1_receive.c/h
  *
- * @brief 		包括遥控器初始化，遥控器数据获取，遥控器通讯协议的解析
+ * @brief 	滤波器初始化以及底盘云台，can1接收
  *
- * @note  		遥控器数据接收采用串口加DMA的模式
+ * @note  		
  * @history
  *
  @verbatim
@@ -68,6 +68,7 @@ void CAN1_filter_config(void)
     CAN1_FIilter_InitStruct.FilterMaskIdHigh = 0x0000;
     CAN1_FIilter_InitStruct.FilterMaskIdLow = 0x0000;
     CAN1_FIilter_InitStruct.FilterBank = 0;
+		CAN1_FIilter_InitStruct.SlaveStartFilterBank = 14;
     CAN1_FIilter_InitStruct.FilterFIFOAssignment = CAN_RX_FIFO0;				//指定接收邮箱
     HAL_CAN_ConfigFilter(&hcan1, &CAN1_FIilter_InitStruct);							//根据指定配置CAN接收过滤器
     HAL_CAN_Start(&hcan1);																							//开启can1
@@ -87,10 +88,13 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 /*     CAN_RxHeaderTypeDef	Rxmessage;	
  */    
     if(hcan == &hcan1)
+				CAN1_chassis_receive(hcan);
+		if(hcan == &hcan2)
+				CAN2_chassis_receive(hcan);
 //			if(CAN1_receive_callback != NULL)
 //					CAN1_receive_callback(hcan)	;               
 		
-		CAN1_chassis_receive(hcan);
+	
 
 }
 

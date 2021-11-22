@@ -99,6 +99,7 @@ int main(void)
   MX_USART6_UART_Init();
   MX_USART2_UART_Init();
   MX_RNG_Init();
+  MX_CAN2_Init();
   /* USER CODE BEGIN 2 */
 	System_init();
 

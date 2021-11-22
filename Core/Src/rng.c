@@ -40,7 +40,7 @@ void MX_RNG_Init(void)
 
 void HAL_RNG_MspInit(RNG_HandleTypeDef* rngHandle)
 {
-	
+
   if(rngHandle->Instance==RNG)
   {
   /* USER CODE BEGIN RNG_MspInit 0 */
@@ -70,7 +70,7 @@ void HAL_RNG_MspDeInit(RNG_HandleTypeDef* rngHandle)
   }
 }
 
-
+/* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */
 

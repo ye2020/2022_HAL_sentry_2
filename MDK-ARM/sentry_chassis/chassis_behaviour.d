@@ -64,6 +64,7 @@ sentry_chassis\chassis_behaviour.o: ../Core/Inc/dma.h
 sentry_chassis\chassis_behaviour.o: ../Core/Inc/gpio.h
 sentry_chassis\chassis_behaviour.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\chassis_behaviour.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h
+sentry_chassis\chassis_behaviour.o: ..\CONTROL\CAN_2_Receive\CAN_2_Receive.h
 sentry_chassis\chassis_behaviour.o: ..\CONTROL\chassis_app\chassis_app.h
 sentry_chassis\chassis_behaviour.o: ..\CONTROL\gimbal_app\gimbal_app.h
 sentry_chassis\chassis_behaviour.o: ..\CONTROL\gimbal_behaviour\gimbal_behaviour.h

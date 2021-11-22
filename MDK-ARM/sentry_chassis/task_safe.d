@@ -64,6 +64,7 @@ sentry_chassis\task_safe.o: ../Core/Inc/dma.h
 sentry_chassis\task_safe.o: ../Core/Inc/gpio.h
 sentry_chassis\task_safe.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\task_safe.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h
+sentry_chassis\task_safe.o: ..\CONTROL\CAN_2_Receive\CAN_2_Receive.h
 sentry_chassis\task_safe.o: ..\CONTROL\chassis_app\chassis_app.h
 sentry_chassis\task_safe.o: ..\CONTROL\gimbal_app\gimbal_app.h
 sentry_chassis\task_safe.o: ..\CONTROL\chassis_behaviour\chassis_behaviour.h

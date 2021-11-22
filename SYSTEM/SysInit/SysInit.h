@@ -44,6 +44,7 @@
 
 /* ************************ CONTROL ******************** */	
 #include "CAN_1_Receive.h"
+#include "CAN_2_Receive.h"
 #include "RemoteControl.h"
 #include "chassis_app.h"
 #include "gimbal_app.h"

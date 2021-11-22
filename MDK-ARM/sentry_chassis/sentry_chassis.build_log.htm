@@ -21,13 +21,24 @@ Target DLL:      Segger\JL2CM3.dll V2.99.40.0
 Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
-d:\workspace\2022_HAL_sentry\MDK-ARM\sentry_chassis.uvprojx
-Project File Date:  11/21/2021
+D:\workspace\2022_HAL_sentry\MDK-ARM\sentry_chassis.uvprojx
+Project File Date:  11/22/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
-"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 0 Warning(s).
+compiling Task_Chassis.c...
+..\TASK\Task_Chassis\Task_Chassis.c(328): warning:  #1-D: last line of file ends without a newline
+  }
+..\TASK\Task_Chassis\Task_Chassis.c(33): warning:  #177-D: variable "pfifo_upper_computer"  was declared but never referenced
+  static fifo_rx_def *pfifo_upper_computer = &fifo_usart2_rx;
+..\TASK\Task_Chassis\Task_Chassis.c(34): warning:  #177-D: variable "buff_read"  was declared but never referenced
+  static	 uint8_t buff_read[128];
+..\TASK\Task_Chassis\Task_Chassis.c: 3 warnings, 0 errors
+linking...
+Program Size: Code=18708 RO-data=692 RW-data=204 ZI-data=21412  
+FromELF: creating hex file...
+"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -51,7 +62,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:01
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

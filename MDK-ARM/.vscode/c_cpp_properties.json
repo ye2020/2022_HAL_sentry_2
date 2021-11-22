@@ -31,6 +31,7 @@
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\gimbal_app",
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\chassis_behaviour",
                 "d:\\workspace\\2022_HAL_sentry\\CONTROL\\gimbal_behaviour",
+                "d:\\workspace\\2022_HAL_sentry\\CONTROL\\CAN_2_Receive",
                 "F:\\keil5\\ARM\\ARMCC\\include",
                 "F:\\keil5\\ARM\\ARMCC\\include\\rw",
                 "d:\\workspace\\2022_HAL_sentry\\MDK-ARM",
