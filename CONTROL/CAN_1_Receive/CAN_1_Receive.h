@@ -51,6 +51,13 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan);
 extern const motor_measure_t *get_Chassis_Motor_Measure_Point(uint8_t i);
 //extern void (*CAN1_receive_callback)(CAN_HandleTypeDef *);
 
+#if (gimbal_yaw_TO_chassis == 0)
+// 返回yaw轴电机指针
+const motor_measure_t *Get_Yaw_Gimbal_Motor_Measure_Point(void);
+#endif
+
+const motor_measure_t *Get_Pitch_Gimbal_Motor_Measure_Point(void);
+
 
 #endif
 

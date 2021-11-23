@@ -45,6 +45,7 @@ sentry_chassis\gimbal_app.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\gimbal_app.o: ..\ALGORITHM\pid\pid.h
 sentry_chassis\gimbal_app.o: ..\ALGORITHM\maths\maths.h
 sentry_chassis\gimbal_app.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
+sentry_chassis\gimbal_app.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\gimbal_app.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\gimbal_app.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\gimbal_app.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

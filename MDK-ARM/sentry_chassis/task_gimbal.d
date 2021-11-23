@@ -1,11 +1,5 @@
 sentry_chassis\task_gimbal.o: ..\TASK\Task_Gimbal\Task_Gimbal.c
 sentry_chassis\task_gimbal.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
-sentry_chassis\task_gimbal.o: ..\SYSTEM\SysInit\SysInit.h
-sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
-sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
-sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
-sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
-sentry_chassis\task_gimbal.o: ..\TASK\Task_Chassis\Task_Chassis.h
 sentry_chassis\task_gimbal.o: ..\CONTROL\RemoteControl\RemoteControl.h
 sentry_chassis\task_gimbal.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/stm32f4xx_hal_conf.h
@@ -14,6 +8,7 @@ sentry_chassis\task_gimbal.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f4xx.h
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Device/ST/STM32F4xx/Include/stm32f407xx.h
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Include/core_cm4.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdint.h
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Include/cmsis_version.h
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
 sentry_chassis\task_gimbal.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
@@ -41,9 +36,15 @@ sentry_chassis\task_gimbal.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_
 sentry_chassis\task_gimbal.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/usart.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/main.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdio.h
 sentry_chassis\task_gimbal.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\task_gimbal.o: ..\ALGORITHM\pid\pid.h
 sentry_chassis\task_gimbal.o: ..\ALGORITHM\maths\maths.h
+sentry_chassis\task_gimbal.o: ..\SYSTEM\SysInit\SysInit.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+sentry_chassis\task_gimbal.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
+sentry_chassis\task_gimbal.o: ..\TASK\Task_Chassis\Task_Chassis.h
+sentry_chassis\task_gimbal.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\task_gimbal.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_gimbal.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\task_gimbal.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

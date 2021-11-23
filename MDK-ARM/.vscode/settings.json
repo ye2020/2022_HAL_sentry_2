@@ -7,6 +7,10 @@
         "chassis_app.h": "c",
         "chassis_behaviour.h": "c",
         "remotecontrol.h": "c",
-        "task_chassis.h": "c"
+        "task_chassis.h": "c",
+        "task_gimbal.h": "c",
+        "can_2_receive.h": "c",
+        "gimbal_behaviour.h": "c",
+        "task_fire.h": "c"
     }
 }

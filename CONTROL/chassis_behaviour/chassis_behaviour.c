@@ -15,8 +15,8 @@ static void Chassis_Auto(chassis_control_t *Chassis_Auto_f);                    
 static void Chassis_Blocking(chassis_control_t *Chassis_Blocking_f);                      // µ×ÅÌ×ßÎ»×´Ì¬º¯Êý
 static void Chassis_RemoteControl(chassis_control_t *Chassis_RemoteControl_f);            // µ×ÅÌÒ£¿Ø×´Ì¬º¯Êý
 
-uint8_t Get_Laser_Back();
-uint8_t Get_Laser_Forward();
+static uint8_t Get_Laser_Back();
+static uint8_t Get_Laser_Forward();
 
 /********************************************/
 
@@ -29,7 +29,7 @@ static float Chassis_ch0 = 0.0f, Chassis_ch1 = 0.0f, Chassis_ch2 = 0.0f; //µ×ÅÌµ
  Chassis_mode_e chassis_remote_control_Table[RC_SW1_lift][RC_SW2_right] = 
 {           /*ÓÒÉÏ*/                     /* ÓÒÏÂ */                          /* ÓÒÖÐ */
   /*×óÉÏ*/  {CHASSIS_AUTO,              CHASSIS_STANDBY,             CHASSIS_REMOTECONTROL},
-  /*×óÏÂ*/  {CHASSIS_REMOTECONTROL,     CHASSIS_STANDBY,                CHASSIS_REMOTECONTROL},
+  /*×óÏÂ*/  {CHASSIS_REMOTECONTROL,     CHASSIS_STANDBY,             CHASSIS_REMOTECONTROL},
   /*×óÖÐ*/  {CHASSIS_AUTO,              CHASSIS_STANDBY,             CHASSIS_REMOTECONTROL}
 };           
 
@@ -124,7 +124,7 @@ static void Chassis_Stop(chassis_control_t *Chassis_Stop_f)
   */
 static void Chassis_Auto(chassis_control_t *Chassis_Auto_f)
 {
-              Chassis_ch2 = CHASSIS_AUTO_SPPED;
+    Chassis_ch2 = CHASSIS_AUTO_SPPED;
 
 }
 
@@ -160,7 +160,7 @@ uint8_t back = 0 ,forward = 0 ;
 //¾àÀëÄÚÓÐ¶«Î÷Îª0, Ã»¶«Î÷Îª1
 //ÓÐÏû¶¶´¦Àí
 
-uint8_t Get_Laser_Back()
+static uint8_t Get_Laser_Back()
 {
 		static int8_t b;
 		b = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_7);
@@ -168,7 +168,7 @@ uint8_t Get_Laser_Back()
 		return b;
 }
 
-uint8_t Get_Laser_Forward()
+static uint8_t Get_Laser_Forward()
 {
 		static int8_t a;
 		a = HAL_GPIO_ReadPin(GPIOA,GPIO_PIN_6);

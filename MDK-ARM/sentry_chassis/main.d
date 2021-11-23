@@ -62,6 +62,7 @@ sentry_chassis\main.o: ..\CONTROL\CAN_1_Receive\CAN_1_Receive.h
 sentry_chassis\main.o: ..\ALGORITHM\pid\pid.h
 sentry_chassis\main.o: ..\ALGORITHM\maths\maths.h
 sentry_chassis\main.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
+sentry_chassis\main.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\main.o: ../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS/cmsis_os.h
 sentry_chassis\main.o: ..\SYSTEM\bsp_usart2\bsp_usart2.h
 sentry_chassis\main.o: ..\SYSTEM\FIFO_BUFF\fifo_buff.h

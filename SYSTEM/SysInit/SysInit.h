@@ -24,6 +24,7 @@
 /************************* Task ************************/
 #include "Task_Chassis.h"
 #include "Task_Gimbal.h"
+#include "Task_Fire.h"
 
 /* ************************freertos******************** */
 #include "freertos.h"
@@ -65,7 +66,6 @@
 #define GIMBAL_APP  15
 
 #define chassis_using		 1    //底盘运动   0 -> 不使用   1 -> 使用
-
 
 /*****各机器人的云台中值(如果用到编码器校准，目前2020赛季步兵P轴用到编码器初始化)******/
 #define Pitch_Middle_Angle  200 //哨兵50   -8  -82     42  -32  74

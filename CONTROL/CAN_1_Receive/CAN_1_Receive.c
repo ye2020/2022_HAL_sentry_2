@@ -27,6 +27,19 @@ extern CAN_HandleTypeDef hcan1;                     // 句柄
 
 
 /*--------------------变量-----------------------*/
+
+#if (gimbal_yaw_TO_chassis == 0)
+//申明yaw轴3508电机变量
+static motor_measure_t motor_yaw;
+
+//返回副yaw电机变量地址，通过指针方式获取原始数据
+const motor_measure_t *Get_Yaw_Gimbal_Motor_Measure_Point(void)
+{
+    return &motor_yaw;
+}
+
+#endif
+
 //申明底盘电机变量 static
 motor_measure_t motor_chassis[4];
 //申明拨弹电机变量
@@ -48,6 +61,11 @@ const motor_measure_t *get_Chassis_Motor_Measure_Point(uint8_t i)
     return &motor_chassis[(i & 0x03)];  //(i & 0x03)
 }
 
+//返回pitch电机变量地址，通过指针方式获取原始数据 
+const motor_measure_t *Get_Pitch_Gimbal_Motor_Measure_Point(void)
+{
+    return &motor_pitch;
+}
 
 
 /**
@@ -129,7 +147,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 					
 					motor_pitch.position = ((uint16_t)(Rx_Data[6] << 24) | (uint16_t)(Rx_Data[5] << 16) | (uint16_t)(Rx_Data[4] << 8) | (uint16_t)(Rx_Data[3] ));
 					
-				if(motor_pitch.position>=0&&motor_pitch.position<=150)
+				if(motor_pitch.position >= 0 && motor_pitch.position<=150)
 					{
 						motor_pitch.position +=884;
 					}

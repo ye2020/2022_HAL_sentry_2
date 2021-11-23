@@ -27,14 +27,14 @@ static void Chassis_accelerated_Control(int16_t *ch0, int16_t *ch1, int16_t *ch2
 
 
 /********************************************/
-
+//底盘控制数据 static
+ chassis_control_t chassis_control;
 
 extern  fifo_rx_def fifo_usart2_rx;
 static fifo_rx_def *pfifo_upper_computer = &fifo_usart2_rx;
 static	 uint8_t buff_read[128];
 
-//底盘控制数据 static
- chassis_control_t chassis_control;
+
 uint16_t rng1 = 0, rng2 = 0;
 void Chassis_Task(void const * argument)
 	{

@@ -1,4 +1,13 @@
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
-"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 0 Warning(s).
-Build Time Elapsed:  00:00:01
+compiling gimbal_behaviour.c...
+..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(25): warning:  #550-D: variable "Friction_wheel_mode"  was set but never used
+  static Shoot_WorkStatus_e Friction_wheel_mode = STOP_SHOOT; // 火控射速控制量
+..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(26): warning:  #177-D: variable "Fire_mode"  was declared but never referenced
+  static Fire_WorkStatus_e Fire_mode = STOP_FIRE;            // 火控开火模式控制量
+..\CONTROL\gimbal_behaviour\gimbal_behaviour.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=18668 RO-data=692 RW-data=204 ZI-data=21412  
+FromELF: creating hex file...
+"sentry_chassis\sentry_chassis.axf" - 0 Error(s), 2 Warning(s).
+Build Time Elapsed:  00:00:03

@@ -15,9 +15,6 @@
 #ifndef TASK_CHASSIS_H
 #define TASK_CHASSIS_H
 
-/*OS控制任务周期以及启动时间*/
-#define CHASSIS_TASK_INIT_TIME 5
-#define CHASSIS_CONTROL_TIME   2
 
 #include "RemoteControl.h"
 #include "CAN_1_Receive.h"
@@ -25,7 +22,9 @@
 #include "maths.h"
 
 /******************************  宏定义 ****************************************/
-
+/*OS控制任务周期以及启动时间*/
+#define CHASSIS_TASK_INIT_TIME 5
+#define CHASSIS_CONTROL_TIME   2
 
 /**********************低通滤波比例**********************/
 #define CHASSIS_FIRST_ORDER_FILTER_K  0.0510f  //0.0110f 越小越平稳，灵敏度越低；越高输出不稳，但灵敏度更高  |  0.26f  |  0.0097f

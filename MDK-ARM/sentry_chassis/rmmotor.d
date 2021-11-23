@@ -45,6 +45,7 @@ sentry_chassis\rmmotor.o: ..\CONTROL\RemoteControl\RemoteControl.h
 sentry_chassis\rmmotor.o: ../Core/Inc/usart.h
 sentry_chassis\rmmotor.o: ..\ALGORITHM\maths\maths.h
 sentry_chassis\rmmotor.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
+sentry_chassis\rmmotor.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\rmmotor.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\rmmotor.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\rmmotor.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

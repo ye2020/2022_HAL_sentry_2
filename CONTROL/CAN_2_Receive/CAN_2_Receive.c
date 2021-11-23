@@ -22,8 +22,17 @@
 extern CAN_HandleTypeDef hcan2;
 extern CAN_HandleTypeDef hcan1;                     // 句柄
 
+#if (gimbal_yaw_TO_chassis == 1)
+//申明yaw轴3508电机变量
+static motor_measure_t motor_yaw;
 
+//返回副yaw电机变量地址，通过指针方式获取原始数据
+const motor_measure_t *Get_Yaw_Gimbal_Motor_Measure_Point(void)
+{
+    return &motor_yaw;
+}
 
+#endif
 /**
 	* @brief		can2滤波器配置
 	* @param		none

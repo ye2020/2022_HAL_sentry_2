@@ -44,6 +44,7 @@ sentry_chassis\task_chassis.o: ..\SYSTEM\SysInit\SysInit.h
 sentry_chassis\task_chassis.o: F:\keil5\ARM\ARMCC\Bin\..\include\stdlib.h
 sentry_chassis\task_chassis.o: F:\keil5\ARM\ARMCC\Bin\..\include\string.h
 sentry_chassis\task_chassis.o: ..\TASK\Task_Gimbal\Task_Gimbal.h
+sentry_chassis\task_chassis.o: ..\TASK\Task_Fire\Task_Fire.h
 sentry_chassis\task_chassis.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/freertos.h
 sentry_chassis\task_chassis.o: ../Core/Inc/FreeRTOSConfig.h
 sentry_chassis\task_chassis.o: ../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h

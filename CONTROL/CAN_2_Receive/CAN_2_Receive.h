@@ -25,6 +25,9 @@
 extern void CAN2_filter_config(void);
 void CAN2_chassis_receive(CAN_HandleTypeDef *hcan);
 
-
+#if (gimbal_yaw_TO_chassis == 1)
+// 返回yaw轴电机指针
+const motor_measure_t *Get_Yaw_Gimbal_Motor_Measure_Point(void);
+#endif
 
 #endif
