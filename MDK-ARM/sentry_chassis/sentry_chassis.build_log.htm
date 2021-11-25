@@ -22,19 +22,19 @@ Dialog DLL:      TCM.DLL V1.53.0.0
  
 <h2>Project:</h2>
 d:\workspace\2022_HAL_sentry\MDK-ARM\sentry_chassis.uvprojx
-Project File Date:  11/22/2021
+Project File Date:  11/25/2021
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'F:\keil5\ARM\ARMCC\Bin'
 Build target 'sentry_chassis'
 compiling gimbal_behaviour.c...
-..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(25): warning:  #550-D: variable "Friction_wheel_mode"  was set but never used
+..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(26): warning:  #550-D: variable "Friction_wheel_mode"  was set but never used
   static Shoot_WorkStatus_e Friction_wheel_mode = STOP_SHOOT; // 火控射速控制量
-..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(26): warning:  #177-D: variable "Fire_mode"  was declared but never referenced
+..\CONTROL\gimbal_behaviour\gimbal_behaviour.c(27): warning:  #550-D: variable "Fire_mode"  was set but never used
   static Fire_WorkStatus_e Fire_mode = STOP_FIRE;            // 火控开火模式控制量
 ..\CONTROL\gimbal_behaviour\gimbal_behaviour.c: 2 warnings, 0 errors
 linking...
-Program Size: Code=18668 RO-data=692 RW-data=204 ZI-data=21412  
+Program Size: Code=24880 RO-data=732 RW-data=244 ZI-data=24476  
 FromELF: creating hex file...
 "sentry_chassis\sentry_chassis.axf" - 0 Error(s), 2 Warning(s).
 
@@ -60,7 +60,7 @@ Package Vendor: Keil
 
    * Component: ARM::CMSIS:CORE:5.5.0
       Include file:  CMSIS\Core\Include\tz_context.h
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:04
 </pre>
 </body>
 </html>

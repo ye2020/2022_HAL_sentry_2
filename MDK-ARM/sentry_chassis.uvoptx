@@ -240,27 +240,32 @@
         <Ww>
           <count>3</count>
           <WinNumber>2</WinNumber>
-          <ItemText>abc,0x0A</ItemText>
+          <ItemText>((pfifo_2-&gt;last_cnt - num) &amp; (pfifo_2-&gt;size - 1)),0x0A</ItemText>
         </Ww>
         <Ww>
           <count>4</count>
           <WinNumber>2</WinNumber>
-          <ItemText>((pfifo_2-&gt;last_cnt - num) &amp; (pfifo_2-&gt;size - 1)),0x0A</ItemText>
+          <ItemText>num,0x0A</ItemText>
         </Ww>
         <Ww>
           <count>5</count>
           <WinNumber>2</WinNumber>
-          <ItemText>num,0x0A</ItemText>
+          <ItemText>__HAL_DMA_GET_COUNTER(huart2.hdmarx)</ItemText>
         </Ww>
         <Ww>
           <count>6</count>
           <WinNumber>2</WinNumber>
-          <ItemText>__HAL_DMA_GET_COUNTER(huart2.hdmarx)</ItemText>
+          <ItemText>buff_read</ItemText>
         </Ww>
         <Ww>
           <count>7</count>
           <WinNumber>2</WinNumber>
-          <ItemText>256</ItemText>
+          <ItemText>buff_tx</ItemText>
+        </Ww>
+        <Ww>
+          <count>8</count>
+          <WinNumber>2</WinNumber>
+          <ItemText>Usart2_Tx</ItemText>
         </Ww>
       </WatchWindow2>
       <Tracepoint>

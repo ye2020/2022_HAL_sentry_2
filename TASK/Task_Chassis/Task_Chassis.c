@@ -30,9 +30,6 @@ static void Chassis_accelerated_Control(int16_t *ch0, int16_t *ch1, int16_t *ch2
 //底盘控制数据 static
  chassis_control_t chassis_control;
 
-extern  fifo_rx_def fifo_usart2_rx;
-static fifo_rx_def *pfifo_upper_computer = &fifo_usart2_rx;
-static	 uint8_t buff_read[128];
 
 
 uint16_t rng1 = 0, rng2 = 0;
@@ -51,7 +48,6 @@ void Chassis_Task(void const * argument)
       /* 底盘控制 */
       chassis_controlwork(&chassis_control);
 
-//			fifo_read_buff(pfifo_upper_computer,buff_read,20);
 
    #if chassis_using
 			LEDE1 = 0;                  // LED1 (PE1 亮)

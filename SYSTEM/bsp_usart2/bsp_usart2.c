@@ -90,12 +90,13 @@ volatile uint32_t num = 0;
 
 void USART2_IRQHandler_callback(UART_HandleTypeDef *huart)
 {
-
-		
+	if(__HAL_UART_GET_FLAG(huart,UART_FLAG_IDLE) == SET)
+	{		
 		
 		num = huart->Instance->SR; //清除RXNE标志
 		num = huart->Instance->DR; //清USART_IT_IDLE标志
-
+		__HAL_DMA_CLEAR_FLAG(huart2.hdmarx, DMA_FLAG_TCIF1_5); 
+	
 		__HAL_DMA_DISABLE(huart2.hdmarx);  // 关闭串口DMA发送通道
 		
 		num = USART2_RX_LEN - __HAL_DMA_GET_COUNTER(huart2.hdmarx);  //! 获取DMA中未传输的数据个数，NDTR寄存器分析参考中文参考手册 （DMA_Channel_TypeDef）  这个不同的芯片HAL库里面定义的命名有点不同
@@ -119,7 +120,7 @@ void USART2_IRQHandler_callback(UART_HandleTypeDef *huart)
 		fifo_write_buff(&fifo_usart2_rx, Usart2_Rx, num);
 		
 		HAL_UART_Receive_DMA(&huart2, Usart2_Rx, USART2_RX_LEN); // 启动DMA接收
-	
+	}
 }
 
 
@@ -130,6 +131,7 @@ void USART2_IRQHandler_callback(UART_HandleTypeDef *huart)
   * @param[in]      len
   * @retval         void
   */
+
 uint32_t usart2_dma_send(uint8_t *data, uint16_t len)
 {	
 	uint32_t result = fifo_write_buff(&fifo_usart2_tx, data, len); //将数据放入循环缓冲区

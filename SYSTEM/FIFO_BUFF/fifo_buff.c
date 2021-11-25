@@ -126,6 +126,7 @@ int32_t fifo_init(fifo_rx_def *pfifo, uint8_t *buff, uint32_t size)
   * @retval         从循环缓冲区获得的实际长度
   * @attention
   */
+
 uint32_t fifo_read_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len)
 {
     uint32_t length;
@@ -163,7 +164,7 @@ uint32_t fifo_write_buff(fifo_rx_def *pfifo, uint8_t *buffer, uint32_t len)
     len = min_fifo(len, (pfifo->size - (pfifo->in - pfifo->out)));
 		abc = len;
 
-    length = min_fifo(len, pfifo->size - (pfifo->in & (pfifo->size - 1)));
+    length = min_fifo(len, pfifo->size - (pfifo->in & (pfifo->size - 1)));		//
 
     memcpy(pfifo->buffer + (pfifo->in & pfifo->size - 1), buffer, length);
     memcpy(pfifo->buffer, buffer + length, len - length);

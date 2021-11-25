@@ -138,7 +138,6 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
 					motor_chassis[0].temperate		 =	Rx_Data[6];
 					
 //					Motor_Actual_Position(&motor_chassis[1],CHASSIS_RATIO,8192);
-
             break;
         }
 				
@@ -156,13 +155,11 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *hcan)
             motor_pitch.actual_Position = motor_pitch.position;   //实际值减去中间值
             motor_pitch.pitch_angle = -(motor_pitch.actual_Position * 360 / 1024 / PITCH_GR - Pitch_Middle_Angle);
             break;
-				
 				}
 			 default:
         {
             break;
         }
-			
 		}
 	}
 

@@ -63,8 +63,8 @@ void chassis_behaviour_mode_set(chassis_control_t *chassis_behaviour_f)
       case CHASSIS_STANDBY:
       {
          chassis_behaviour_f -> chassis_mode = CHASSIS_INITIALIZE;  //状态设置为初始化
-         Remote_reload(); 
-         break;                                           //摇杆量清零
+         Remote_reload();                                           //摇杆量清零
+         break;                                           
       }
 			/*  自动模式 */
       case CHASSIS_AUTO:
